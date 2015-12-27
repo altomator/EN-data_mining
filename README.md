@@ -30,7 +30,8 @@ Xalan-Java :
 
 #### Article
 
-#### Graphs
+#### Charts
+See Charts
 
 #### Data set
 The complete set of derived data contains about 4,500,000 atomic metadata from six national and regional French newspapers (1814-1945, 880 000 pages, 150 000 issues) of Gallica (www.gallica.fr) press collections:
