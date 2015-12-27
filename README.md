@@ -7,9 +7,9 @@ Newspapers from European digital library collections collections are part of the
 Of each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, advertisements, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract  metadata from METS manifest and OCR files. 
 
 ### Installation
-
+You will need to install:
 3 DOS shell scripts :
-- cmd.
+- cmd.dos
 - sdd
 - ddd
 
@@ -17,14 +17,18 @@ Of each digital document is derived a set of bibliographical and descriptive met
 - ddd
 - dd
 
-Java
-
 Xalan-Java :
 - dd
 - dd
 
+The documents must be stored in a "DOCS" folder.
+The metadata will be generated in a "STATS" folder.
+
 
 ### Tests
+1. Open a DOS command line.
+2. Type
+3. 
 
 ### Article, graphs &  data sets
 
