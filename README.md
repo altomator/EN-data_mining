@@ -36,6 +36,7 @@ The metadata will be generated in a "STATS" folder.
 
 #### Charts
 See [Charts](https://github.com/altomator/EN-data_mining/tree/master/Charts)
+
 (Made with [Highcharts](www.highcharts.com))
 
 #### Dataset
