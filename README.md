@@ -36,8 +36,9 @@ The metadata will be generated in a "STATS" folder.
 
 #### Charts
 See [Charts](https://github.com/altomator/EN-data_mining/tree/master/Charts)
+(Made with [Highcharts](www.highcharts.com))
 
-#### Data set
+#### Dataset
 The complete set of derived data contains about 4,500,000 atomic metadata from six national and regional French newspapers (1814-1945, 880 000 pages, 150 000 issues) of Gallica (www.gallica.fr) press collections:
 - *Le Matin*
 - *Le Gaulois*
@@ -47,6 +48,9 @@ The complete set of derived data contains about 4,500,000 atomic metadata from s
 - *Ouest-Eclair*
 
 See [Datasets](https://github.com/altomator/EN-data_mining/tree/master/Datasets)
+
+## EN project
+This work has been part-funded through the EU Competitiveness and Innovation Framework Programme grant Europeana Newspapers (Ref. 297380)
 
 ## License
 CC0
