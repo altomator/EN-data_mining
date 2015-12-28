@@ -50,10 +50,13 @@ The complete set of derived data contains about 4,500,000 atomic metadata from s
 
 See [Datasets](https://github.com/altomator/EN-data_mining/tree/master/Datasets)
 
-## EN project
-This work has been part-funded through the EU Competitiveness and Innovation Framework Programme grant Europeana Newspapers (Ref. 297380)
+
 
 ## License
 CC0
 
 <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://camo.githubusercontent.com/4df6de8c11e31c357bf955b12ab8c55f55c48823/68747470733a2f2f6c6963656e7365627574746f6e732e6e65742f702f7a65726f2f312e302f38387833312e706e67" alt="CC0" data-canonical-src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="max-width:100%;"></a>
+
+This work has been part-funded through the EU Competitiveness and Innovation Framework Programme grant Europeana Newspapers (Ref. 297380)
+
+
