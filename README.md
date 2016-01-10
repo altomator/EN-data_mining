@@ -2,37 +2,42 @@
 *Data Mining Historical Newspaper Metadata (Europeana Newspaper Project)*
 
 ### Synopsis
-Newspapers from European digital library collections collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspaper (www.europeana-newspapers.eu). The OLR refinement consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using the METS/ALTO format. 
+Newspapers from European digital librabries collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspapers (www.europeana-newspapers.eu). The OLR refinement (performed by CCS) consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using the METS/ALTO format.
 
-Of each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, advertisements, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract  metadata from METS manifest and OCR files. 
+From each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract some metadata from METS manifest or OCR files. The complete set of derived data contains about 4,500,000 atomic metadata values.
+
 
 ### Installation
-You will need to install:
-3 DOS shell scripts :
-- cmd.dos
-- sdd
-- ddd
+You will need to use:
+Two DOS shell scripts :
+- batch-EN.bat
+- xslt.cmd
 
-2 XSLT sheets
-- ddd
-- dd
+Two XSLT sheets
+- analyseAltosCCS.xsl
+- calculeStatsMETS_CSV.xsl
 
-Xalan-Java :
-- dd
-- dd
+The XSLT are runned with Xalan-Java (see xslt.cmd).
 
 The documents must be stored in a "DOCS" folder.
-The metadata will be generated in a "STATS" folder.
+The metadata are generated in a "STATS" folder.
 
 
 ### Tests
 1. Open a DOS command line.
-2. Type
-3. 
+2. Change dir to the batch folder
+3. >batch-EN.bat 
+
+For each document, its metadata are stored in the STATS folder under two formats :
+- XML (raw metadata, with detailled values for each page)
+- CSV (metadata atissue level)
+
+An aggregated file (metadata.csv) contains all the CSV metadata.
+
 
 ### Article, charts &  datasets
 
-See http://altomator.github.io/EN-data_mining for a detailed presentation.
+See http://altomator.github.io/EN-data_mining/ for a detailed presentation.
 
 #### Charts
 See [Charts](https://github.com/altomator/EN-data_mining/tree/master/Charts)
@@ -48,7 +53,7 @@ The complete set of derived data contains about 4,500,000 atomic metadata from s
 - *Le Petit Parisien*
 - *Ouest-Eclair*
 
-See [Datasets](https://github.com/altomator/EN-data_mining/tree/master/Datasets)
+See [Datasets](http://altomator.github.io/EN-data_mining)
 
 
 
