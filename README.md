@@ -31,7 +31,7 @@ The metadata are generated in a "STATS" folder.
 
 For each document, its metadata are stored in the STATS folder under two formats :
 - XML (raw metadata, with detailled values for each page)
-- CSV (metadata atissue level)
+- CSV (metadata at the issue level)
 
 An aggregated file (metadata.csv) contains all the CSV metadata.
 
