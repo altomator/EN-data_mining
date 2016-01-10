@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Repartition des types de contenu - Le Gaulois</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'area'
+        },
+        title: {
+            text: 'Repartition des types de contenu - Le Gaulois'
+        },
+        subtitle: {
+            text: 'Source: Europeana Newspapers, BnF'
+        },
+        xAxis: {
+            categories: [  '1868', '1869', '1870', '1871', '1872', '1873', '1874', '1875', '1876', '1877', '1878', '1879', '1880', '1881', '1882', '1883', '1884', '1885', '1886', '1887', '1888', '1889', '1890', '1891', '1892', '1893', '1894', '1895', '1896', '1897', '1898', '1899', '1900', '1901', '1902', '1903', '1904', '1905', '1906', '1907', '1908', '1909', '1910', '1911', '1912', '1913', '1914', '1915', '1916', '1917', '1918', '1919', '1920', '1921', '1922', '1923', '1924', '1925', '1926', '1927', '1928'],
+            tickmarkPlacement: 'on',
+            title: {
+                enabled: false
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'Nombre de blocs par fascicule'
+            },
+            labels: {
+                formatter: function () {
+                    return this.value / 1;
+                }
+            }
+        },
+        tooltip: {
+            shared: true,
+            valueSuffix: ' blocs'
+        },
+        plotOptions: {
+            area: {
+                stacking: 'normal',
+                lineColor: '#666666',
+                lineWidth: 1,
+                marker: {
+                    lineWidth: 1,
+                    lineColor: '#666666'
+                }
+            }
+        },
+        series: [{
+            name: 'Texte',
+            data: [38, 38, 42, 41, 42, 42, 40, 38, 40, 43, 45, 40, 36, 38, 35, 35, 41, 39, 40, 42, 48, 43, 41, 43, 42, 42, 46, 46, 47, 47, 51, 50, 50, 47, 48, 51, 49, 51, 52, 59, 60, 63, 54, 56, 52, 60, 56, 49, 51, 60, 52, 48, 48, 49, 50, 45, 50, 50, 49, 49, 55 ]
+        }, {
+            name: 'Illustration',
+            data: [0.1, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.1, 0.1, 0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.0, 0.1, 0.2, 0.1, 0.2, 0.3, 0.2, 0.1, 0.1, 0.2, 0.1, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.0, 0.0, 0.1, 0.1, 0.0, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.2, 0.1, 0.2, 0.2, 0.2, 0.2, 0.3 ]
+        }, {
+            name: 'Publicite',
+            data: [3, 3, 3, 2, 3, 2, 3, 3, 3, 3, 3, 4, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 2, 3, 3, 3, 4, 4, 4, 3, 3, 3, 3, 3, 4, 4 ]
+        }]
+    });
+});
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+	</body>
+</html>
