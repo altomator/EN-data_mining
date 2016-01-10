@@ -9,11 +9,12 @@ From each digital document is derived a set of bibliographical and descriptive m
 
 ### Installation
 You will need to use:
+
 Two DOS shell scripts :
 - batch-EN.bat
 - xslt.cmd
 
-Two XSLT sheets
+Two XSLT sheets:
 - analyseAltosCCS.xsl
 - calculeStatsMETS_CSV.xsl
 
