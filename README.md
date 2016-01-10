@@ -4,7 +4,7 @@
 ### Synopsis
 Newspapers from European digital librabries collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspapers (www.europeana-newspapers.eu). The OLR refinement (performed by CCS) consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using the METS/ALTO format.
 
-From each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract some metadata from METS manifest or OCR files. The complete set of derived data contains about 4,500,000 atomic metadata values.
+From each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract some metadata from METS manifest or OCR files.
 
 
 ### Installation
@@ -18,7 +18,7 @@ Two XSLT sheets:
 - analyseAltosCCS.xsl
 - calculeStatsMETS_CSV.xsl
 
-The XSLT are runned with Xalan-Java (see xslt.cmd).
+The XSLT are runned with Xalan-Java. Path to the Java bin must be set in xslt.cmd.
 
 The documents must be stored in a "DOCS" folder.
 The metadata are generated in a "STATS" folder.
