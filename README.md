@@ -41,7 +41,7 @@ An aggregated file (metadata.csv) contains all the CSV metadata.
 
 
 ### Charts
-See on [Github](https://github.com/altomator/EN-data_mining/tree/master/Charts) and [here](http://altomator.github.io/EN-data_mining/))
+See on [Github](https://github.com/altomator/EN-data_mining/tree/master/Charts) and [here](http://altomator.github.io/EN-data_mining/).
 
 (Made with [Highcharts](www.highcharts.com))
 
