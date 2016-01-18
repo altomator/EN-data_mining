@@ -6,6 +6,8 @@ Newspapers from European digital librabries collections are part of the data set
 
 From each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract some metadata from METS manifest or OCR files.
 
+See http://altomator.github.io/EN-data_mining/ for a detailed presentation.
+En [français](https://altomator.wordpress.com/2016/01/17/presse-ancienne-data-mining/)
 
 ### Installation
 You will need to use:
@@ -36,16 +38,13 @@ For each document, its metadata are stored in the STATS folder under two formats
 An aggregated file (metadata.csv) contains all the CSV metadata.
 
 
-### Article, charts &  datasets
 
-See http://altomator.github.io/EN-data_mining/ for a detailed presentation.
-
-#### Charts
+### Charts
 See [Charts](https://github.com/altomator/EN-data_mining/tree/master/Charts)
 
 (Made with [Highcharts](www.highcharts.com))
 
-#### Datasets
+### Datasets
 The complete set of derived data contains about 4,500,000 atomic metadata from six national and regional French newspapers (1814-1945, 880 000 pages, 150 000 issues) of Gallica (www.gallica.fr) press collections:
 - *Le Matin*
 - *Le Gaulois*
