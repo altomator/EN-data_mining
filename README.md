@@ -6,8 +6,9 @@ Newspapers from European digital librabries collections are part of the data set
 
 From each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract some metadata from METS manifest or OCR files.
 
-See http://altomator.github.io/EN-data_mining/ for a detailed presentation.
-En [français](https://altomator.wordpress.com/2016/01/17/presse-ancienne-data-mining/)
+Detailled presentation :
+- [English](http://altomator.github.io/EN-data_mining/)
+- [Français](https://altomator.wordpress.com/2016/01/17/presse-ancienne-data-mining/)
 
 ### Installation
 You will need to use:
