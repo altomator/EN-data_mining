@@ -13,6 +13,9 @@ Detailled presentation :
 ### Installation
 You can use XSLT (DOS scripts) or Perl script.
 
+Sample documents are stored in the "DOCS" folder.
+The metadata are generated in "STATS" folder.
+
 #### XSLT
 Two DOS shell scripts :
 - batch-EN.bat
@@ -24,28 +27,27 @@ Two XSLT sheets:
 
 The XSLT are runned with Xalan-Java. Path to the Java bin must be set in xslt.cmd.
 
-The documents must be stored in a "DOCS" folder.
-The metadata are generated in a "STATS" folder.
+For each document, its metadata are stored in the STATS folder under two formats :
+- XML (raw metadata, with detailled values for each page)
+- CSV (metadata at the issue level)
+
+An aggregated file (metadata.csv) contains all the CSV metadata.
+
 
 ##### Tests
-1. Open a command line terminal.
+1. Open a DOS terminal.
 2. Change dir to the batch folder
 3. >batch-EN.bat 
 
 #### Perl 
 One Perl script : extractMD.pl 
 
+For each document, its metadata are stored in the STATS folder under your prefered formats : XML, JSON, CSV, txt 
+
 ##### Tests
-1. Open a command line terminal.
+1. Open a shell terminal.
 2. Change dir to the batch folder
-3. >perl docs_folder xml json csv
-
-
-For each document, its metadata are stored in the STATS folder under two formats :
-- XML (raw metadata, with detailled values for each page)
-- CSV (metadata at the issue level)
-
-An aggregated file (metadata.csv) contains all the CSV metadata.
+3. >perl DOCS xml json
 
 
 
