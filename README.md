@@ -40,9 +40,11 @@ An aggregated file (metadata.csv) contains all the CSV metadata.
 3. >batch-EN.bat 
 
 #### Perl 
-One Perl script : extractMD.pl 
+Faster and richer (more metadata) than the XSLT scripts.
 
+One Perl script : extractMD.pl 
 For each document, its metadata are stored in the STATS folder under your prefered formats : XML, JSON, CSV, txt 
+
 
 ##### Test
 1. Open a shell terminal.
