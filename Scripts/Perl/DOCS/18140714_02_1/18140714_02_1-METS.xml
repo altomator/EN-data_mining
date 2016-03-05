@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets TYPE="Newspaper" LABEL="Le Journal des Débats politiques et littéraires no.  14.07.1814" PROFILE="ENMAP" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version191/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd" xmlns:METS="http://www.loc.gov/METS/" xmlns:mix="http://www.loc.gov/mix/v20" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/">
+	<mets:metsHdr CREATEDATE="2014-06-13T16:08:24" LASTMODDATE="2014-06-13T16:08:24">
+		<mets:agent ROLE="OTHER" OTHERROLE="OWNER">
+			<mets:name>BnF</mets:name>
+		</mets:agent>
+		<mets:agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+			<mets:name>CCS docWorks/METAe Version 6.7-1</mets:name>
+			<mets:note>docWorks-ID: 600377</mets:note>
+		</mets:agent>
+	</mets:metsHdr>
+	<mets:dmdSec ID="MODSMD_PRINT">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of the printed version">
+			<mets:xmlData>
+				<mods>
+					<recordInfo>
+						<recordContentSource>BnF</recordContentSource>
+					</recordInfo>
+					<genre>newspaper issue</genre>
+					<titleInfo>
+						<title>Le Journal des Débats politiques et littéraires</title>
+					</titleInfo>
+					<identifier type="ENP">BnF_00001</identifier>
+					<identifier type="CatalogueIdentifier">FRBNF39294634</identifier>
+					<accessCondition>6 - Snippet view (image server)</accessCondition>
+					<language>
+						<languageTerm>French</languageTerm>
+						<fontTerm>Antiqua</fontTerm>
+					</language>
+					<originInfo>
+						<dateCreated point="start" keyDate="yes"/>
+					</originInfo>
+				</mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="MODSMD_ISSUE1">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of Issue">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:titleInfo ID="MODSMD_ISSUE1_TI1" xml:lang="fr">
+						<mods:title>Le Journal des Débats politiques et littéraires</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="rfc3066">fr</mods:languageTerm>
+					</mods:language>
+					<mods:originInfo>
+						<mods:edition>2</mods:edition>
+						<mods:dateIssued point="start" keyDate="yes" qualifier="approximate">14.07.1814</mods:dateIssued>
+					</mods:originInfo>
+					<mods:identifier type="local">BnF_00001</mods:identifier>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="MODSMD_ARTICLE1">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:titleInfo ID="MODSMD_ARTICLE1_TI1" xml:lang="fr">
+						<mods:title>RAPPORT</mods:title>
+					</mods:titleInfo>
+					<mods:language>
+						<mods:languageTerm type="code" authority="rfc3066">fr</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="MODSMD_PICT1">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of table">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:titleInfo ID="MODSMD_PICT1_TI1" xml:lang="fr">
+						<mods:title>Untitled</mods:title>
+					</mods:titleInfo>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="MODSMD_ARTICLE2">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:language>
+						<mods:languageTerm type="code" authority="rfc3066">fr</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:dmdSec ID="MODSMD_ARTICLE3">
+		<mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS" LABEL="Bibliographic meta-data of article">
+			<mets:xmlData>
+				<mods:mods>
+					<mods:language>
+						<mods:languageTerm type="code" authority="rfc3066">fr</mods:languageTerm>
+					</mods:language>
+				</mods:mods>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:amdSec ID="TECH_MD">
+		<mets:techMD ID="IMGPARAM00001TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicDigitalObjectInformation>
+							<mix:Compression>
+								<mix:compressionScheme>34712</mix:compressionScheme>
+							</mix:Compression>
+						</mix:BasicDigitalObjectInformation>
+						<mix:BasicImageInformation>
+							<mix:BasicImageCharacteristics>
+								<mix:imageWidth>2473</mix:imageWidth>
+								<mix:imageHeight>4054</mix:imageHeight>
+							</mix:BasicImageCharacteristics>
+						</mix:BasicImageInformation>
+						<mix:ImageAssessmentMetadata>
+							<mix:SpatialMetrics>
+								<mix:samplingFrequencyPlane>object plane</mix:samplingFrequencyPlane>
+								<mix:samplingFrequencyUnit>in.</mix:samplingFrequencyUnit>
+								<mix:xSamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:xSamplingFrequency>
+								<mix:ySamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:ySamplingFrequency>
+							</mix:SpatialMetrics>
+							<mix:ImageColorEncoding>
+								<mix:BitsPerSample>
+									<mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+									<mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+								</mix:BitsPerSample>
+								<mix:samplesPerPixel>1</mix:samplesPerPixel>
+							</mix:ImageColorEncoding>
+						</mix:ImageAssessmentMetadata>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+		<mets:techMD ID="IMGPARAM00002TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicDigitalObjectInformation>
+							<mix:Compression>
+								<mix:compressionScheme>34712</mix:compressionScheme>
+							</mix:Compression>
+						</mix:BasicDigitalObjectInformation>
+						<mix:BasicImageInformation>
+							<mix:BasicImageCharacteristics>
+								<mix:imageWidth>2459</mix:imageWidth>
+								<mix:imageHeight>4033</mix:imageHeight>
+							</mix:BasicImageCharacteristics>
+						</mix:BasicImageInformation>
+						<mix:ImageAssessmentMetadata>
+							<mix:SpatialMetrics>
+								<mix:samplingFrequencyPlane>object plane</mix:samplingFrequencyPlane>
+								<mix:samplingFrequencyUnit>in.</mix:samplingFrequencyUnit>
+								<mix:xSamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:xSamplingFrequency>
+								<mix:ySamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:ySamplingFrequency>
+							</mix:SpatialMetrics>
+							<mix:ImageColorEncoding>
+								<mix:BitsPerSample>
+									<mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+									<mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+								</mix:BitsPerSample>
+								<mix:samplesPerPixel>1</mix:samplesPerPixel>
+							</mix:ImageColorEncoding>
+						</mix:ImageAssessmentMetadata>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+		<mets:techMD ID="IMGPARAM00003TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicDigitalObjectInformation>
+							<mix:Compression>
+								<mix:compressionScheme>34712</mix:compressionScheme>
+							</mix:Compression>
+						</mix:BasicDigitalObjectInformation>
+						<mix:BasicImageInformation>
+							<mix:BasicImageCharacteristics>
+								<mix:imageWidth>2460</mix:imageWidth>
+								<mix:imageHeight>4041</mix:imageHeight>
+							</mix:BasicImageCharacteristics>
+						</mix:BasicImageInformation>
+						<mix:ImageAssessmentMetadata>
+							<mix:SpatialMetrics>
+								<mix:samplingFrequencyPlane>object plane</mix:samplingFrequencyPlane>
+								<mix:samplingFrequencyUnit>in.</mix:samplingFrequencyUnit>
+								<mix:xSamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:xSamplingFrequency>
+								<mix:ySamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:ySamplingFrequency>
+							</mix:SpatialMetrics>
+							<mix:ImageColorEncoding>
+								<mix:BitsPerSample>
+									<mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+									<mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+								</mix:BitsPerSample>
+								<mix:samplesPerPixel>1</mix:samplesPerPixel>
+							</mix:ImageColorEncoding>
+						</mix:ImageAssessmentMetadata>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+		<mets:techMD ID="IMGPARAM00004TECHMD">
+			<mets:mdWrap MDTYPE="NISOIMG">
+				<mets:xmlData>
+					<mix:mix>
+						<mix:BasicDigitalObjectInformation>
+							<mix:Compression>
+								<mix:compressionScheme>34712</mix:compressionScheme>
+							</mix:Compression>
+						</mix:BasicDigitalObjectInformation>
+						<mix:BasicImageInformation>
+							<mix:BasicImageCharacteristics>
+								<mix:imageWidth>2405</mix:imageWidth>
+								<mix:imageHeight>4033</mix:imageHeight>
+							</mix:BasicImageCharacteristics>
+						</mix:BasicImageInformation>
+						<mix:ImageAssessmentMetadata>
+							<mix:SpatialMetrics>
+								<mix:samplingFrequencyPlane>object plane</mix:samplingFrequencyPlane>
+								<mix:samplingFrequencyUnit>in.</mix:samplingFrequencyUnit>
+								<mix:xSamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:xSamplingFrequency>
+								<mix:ySamplingFrequency>
+									<mix:numerator>300</mix:numerator>
+									<mix:denominator>1</mix:denominator>
+								</mix:ySamplingFrequency>
+							</mix:SpatialMetrics>
+							<mix:ImageColorEncoding>
+								<mix:BitsPerSample>
+									<mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+									<mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+								</mix:BitsPerSample>
+								<mix:samplesPerPixel>1</mix:samplesPerPixel>
+							</mix:ImageColorEncoding>
+						</mix:ImageAssessmentMetadata>
+					</mix:mix>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+	</mets:amdSec>
+	<mets:fileSec>
+		<mets:fileGrp ID="ViewingFiles" USE="VIEWING">
+			<mets:file ID="VIEWING00001" CREATED="2014-06-13T16:06:42" MIMETYPE="image/jp2" SEQ="1" CHECKSUM="bead9ec60b245e5bea7d9a124d378f41" CHECKSUMTYPE="MD5" SIZE="312856">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./Viewing/18140714_02_1-0001.jp2"/>
+			</mets:file>
+			<mets:file ID="VIEWING00002" CREATED="2014-06-13T16:07:15" MIMETYPE="image/jp2" SEQ="2" CHECKSUM="79f77864ff4270e97846591f023890d4" CHECKSUMTYPE="MD5" SIZE="309250">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./Viewing/18140714_02_1-0002.jp2"/>
+			</mets:file>
+			<mets:file ID="VIEWING00003" CREATED="2014-06-13T16:07:48" MIMETYPE="image/jp2" SEQ="3" CHECKSUM="7ef9f0065696e3b609cd83bdd59ce7ea" CHECKSUMTYPE="MD5" SIZE="309766">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./Viewing/18140714_02_1-0003.jp2"/>
+			</mets:file>
+			<mets:file ID="VIEWING00004" CREATED="2014-06-13T16:08:17" MIMETYPE="image/jp2" SEQ="4" CHECKSUM="b4a673bbbc82581f705f4498da32dc58" CHECKSUMTYPE="MD5" SIZE="300641">
+				<mets:FLocat LOCTYPE="URL" xlink:href="file://./Viewing/18140714_02_1-0004.jp2"/>
+			</mets:file>
+		</mets:fileGrp>
+		<mets:fileGrp ID="ImageGroup">
+			<mets:fileGrp ID="OCRMasterFiles" USE="Preservation">
+				<mets:file ID="IMG00001" CREATED="2014-06-13T16:06:42" ADMID="IMGPARAM00001TECHMD" MIMETYPE="image/jp2" SEQ="1" CHECKSUM="ae7ce1016fe7d2428076bc3667e2251c" CHECKSUMTYPE="MD5" SIZE="4435870">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./OCRmaster/18140714_02_1-0001.jp2"/>
+				</mets:file>
+				<mets:file ID="IMG00002" CREATED="2014-06-13T16:07:15" ADMID="IMGPARAM00002TECHMD" MIMETYPE="image/jp2" SEQ="2" CHECKSUM="0f01a3c3a70a913d24c210a58fe262f1" CHECKSUMTYPE="MD5" SIZE="4372508">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./OCRmaster/18140714_02_1-0002.jp2"/>
+				</mets:file>
+				<mets:file ID="IMG00003" CREATED="2014-06-13T16:07:48" ADMID="IMGPARAM00003TECHMD" MIMETYPE="image/jp2" SEQ="3" CHECKSUM="222e39c97c44f1d90d432902c381f42f" CHECKSUMTYPE="MD5" SIZE="4415598">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./OCRmaster/18140714_02_1-0003.jp2"/>
+				</mets:file>
+				<mets:file ID="IMG00004" CREATED="2014-06-13T16:08:17" ADMID="IMGPARAM00004TECHMD" MIMETYPE="image/jp2" SEQ="4" CHECKSUM="91e49a95c5ec0985f79fb19a446c6af4" CHECKSUMTYPE="MD5" SIZE="4519239">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./OCRmaster/18140714_02_1-0004.jp2"/>
+				</mets:file>
+			</mets:fileGrp>
+		</mets:fileGrp>
+		<mets:fileGrp ID="TextGroup">
+			<mets:fileGrp ID="ALTOFiles" USE="content">
+				<mets:file ID="ALTO00001" CREATED="2014-06-13T16:08:20" MIMETYPE="text/xml" CHECKSUM="a03bd5e278e7ff6e69a584727777d52f" CHECKSUMTYPE="MD5" SIZE="276090">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./ALTO/18140714_02_1-0001.xml"/>
+				</mets:file>
+				<mets:file ID="ALTO00002" CREATED="2014-06-13T16:08:22" MIMETYPE="text/xml" CHECKSUM="4372d4ba742529b6db56699525a76e48" CHECKSUMTYPE="MD5" SIZE="449917">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./ALTO/18140714_02_1-0002.xml"/>
+				</mets:file>
+				<mets:file ID="ALTO00003" CREATED="2014-06-13T16:08:23" MIMETYPE="text/xml" CHECKSUM="747d919e2a93fb50c74c5493bb6dc9ad" CHECKSUMTYPE="MD5" SIZE="422058">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./ALTO/18140714_02_1-0003.xml"/>
+				</mets:file>
+				<mets:file ID="ALTO00004" CREATED="2014-06-13T16:08:24" MIMETYPE="text/xml" CHECKSUM="e1c6373e2f938cb8bead0a65316c4f81" CHECKSUMTYPE="MD5" SIZE="410229">
+					<mets:FLocat LOCTYPE="URL" xlink:href="file://./ALTO/18140714_02_1-0004.xml"/>
+				</mets:file>
+			</mets:fileGrp>
+		</mets:fileGrp>
+	</mets:fileSec>
+	<mets:structMap LABEL="Physical Structure" TYPE="PHYSICAL">
+		<mets:div ID="DIVP1" LABEL="Le Journal des Débats politiques et littéraires" TYPE="Newspaper" DMDID="MODSMD_PRINT MODSMD_ELEC">
+			<mets:div ID="DIVP2" ORDER="1" TYPE="TITLE_PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00001"/>
+						<mets:area FILEID="ALTO00001" BETYPE="IDREF" BEGIN="P1"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP3" ORDER="2" LABEL="c X &gt;" TYPE="CONTENT_PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00002"/>
+						<mets:area FILEID="ALTO00002" BETYPE="IDREF" BEGIN="P2"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP4" ORDER="3" LABEL="r s:" TYPE="CONTENT_PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00003"/>
+						<mets:area FILEID="ALTO00003" BETYPE="IDREF" BEGIN="P3"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+			<mets:div ID="DIVP5" ORDER="4" LABEL="t m" TYPE="CONTENT_PAGE">
+				<mets:fptr>
+					<mets:par>
+						<mets:area FILEID="IMG00004"/>
+						<mets:area FILEID="ALTO00004" BETYPE="IDREF" BEGIN="P4"/>
+					</mets:par>
+				</mets:fptr>
+			</mets:div>
+		</mets:div>
+	</mets:structMap>
+	<mets:structMap LABEL="Logical Structure" TYPE="LOGICAL">
+		<mets:div ID="DIVL1" TYPE="Newspaper" LABEL="Le Journal des Débats politiques et littéraires no.  14.07.1814">
+			<mets:div ID="DIVL2" TYPE="VOLUME" DMDID="MODSMD_PRINT MODSMD_ELEC" LABEL="Le Journal des Débats politiques et littéraires no. 14.07.1814">
+				<mets:div ID="DIVL3" TYPE="ISSUE" DMDID="MODSMD_ISSUE1" LABEL="Le Journal des Débats politiques et littéraires no. 14.07.1814">
+					<mets:div ID="DIVL4" TYPE="CONTENT">
+						<mets:div ID="DIVL5" TYPE="ARTICLE" DMDID="MODSMD_ARTICLE1" LABEL="RAPPORT">
+							<mets:div ID="DIVL6" TYPE="HEADING">
+								<mets:div ID="DIVL7" TYPE="TITLE">
+									<mets:fptr>
+										<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_TB00001"/>
+									</mets:fptr>
+								</mets:div>
+							</mets:div>
+							<mets:div ID="DIVL8" TYPE="BODY">
+								<mets:div ID="DIVL9" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL10" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL11" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_TB00002"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL12" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL13" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL14" TYPE="PARAGRAPH" ORDER="3">
+										<mets:div ID="DIVL15" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00001" BEGIN="P1_TB00004"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL16" TYPE="PARAGRAPH" ORDER="4">
+										<mets:div ID="DIVL17" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00001"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL18" TYPE="PARAGRAPH" ORDER="5">
+										<mets:div ID="DIVL19" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00002"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL20" TYPE="PARAGRAPH" ORDER="6">
+										<mets:div ID="DIVL21" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL22" TYPE="PARAGRAPH" ORDER="7">
+										<mets:div ID="DIVL23" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00004"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL24" TYPE="PARAGRAPH" ORDER="8">
+										<mets:div ID="DIVL25" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00005"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL26" TYPE="PARAGRAPH" ORDER="9">
+										<mets:div ID="DIVL27" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_TB00006"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL28" TYPE="PARAGRAPH" ORDER="10">
+										<mets:div ID="DIVL29" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00001"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL30" TYPE="PARAGRAPH" ORDER="11">
+										<mets:div ID="DIVL31" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00002"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL32" TYPE="PARAGRAPH" ORDER="12">
+										<mets:div ID="DIVL33" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL34" TYPE="PARAGRAPH" ORDER="13">
+										<mets:div ID="DIVL35" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00003" BEGIN="P3_TB00004"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+								<mets:div ID="DIVL36" TYPE="TABLE" ORDER="1" DMDID="MODSMD_PICT1" LABEL="Untitled">
+									<mets:div ID="DIVL37" TYPE="IMAGE">
+										<mets:fptr>
+											<mets:area BETYPE="IDREF" FILEID="ALTO00002" BEGIN="P2_CB00001"/>
+										</mets:fptr>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL38" TYPE="ARTICLE" DMDID="MODSMD_ARTICLE2">
+							<mets:div ID="DIVL39" TYPE="BODY">
+								<mets:div ID="DIVL40" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL41" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL42" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00001"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+									<mets:div ID="DIVL43" TYPE="PARAGRAPH" ORDER="2">
+										<mets:div ID="DIVL44" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00002"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+						<mets:div ID="DIVL45" TYPE="ARTICLE" DMDID="MODSMD_ARTICLE3">
+							<mets:div ID="DIVL46" TYPE="BODY">
+								<mets:div ID="DIVL47" TYPE="BODY_CONTENT">
+									<mets:div ID="DIVL48" TYPE="PARAGRAPH" ORDER="1">
+										<mets:div ID="DIVL49" TYPE="TEXT">
+											<mets:fptr>
+												<mets:area BETYPE="IDREF" FILEID="ALTO00004" BEGIN="P4_TB00003"/>
+											</mets:fptr>
+										</mets:div>
+									</mets:div>
+								</mets:div>
+							</mets:div>
+						</mets:div>
+					</mets:div>
+				</mets:div>
+			</mets:div>
+		</mets:div>
+	</mets:structMap>
+</METS:mets>

@@ -1,0 +1,14 @@
+{ "metad":
+ { "titre": "Le Journal des Débats politiques et littéraires",
+   "dateEdition": "02.04.1814",
+   "nbPage": 4,
+     "suppl": "FALSE"},
+  "contenus": {
+     "nbArticle": 14,
+     "largeur": 208,
+     "hauteur": 336,
+  "page": [
+    {"nbMot": 1531, "blocTexte": 7, "blocTab": 0, "blocPub": 0, "blocIllustration": 0},
+    {"nbMot": 1634, "blocTexte": 3, "blocTab": 0, "blocPub": 0, "blocIllustration": 0},
+    {"nbMot": 1586, "blocTexte": 6, "blocTab": 0, "blocPub": 0, "blocIllustration": 0},
+    {"nbMot": 1534, "blocTexte": 7, "blocTab": 0, "blocPub": 0, "blocIllustration": 0}]}}

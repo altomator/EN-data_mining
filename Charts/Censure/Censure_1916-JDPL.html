@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/censure-JDPL-1916.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		
+		<title>Num&eacute;ros censur&eacute;s  (1916) - Journal des D&eacute;bats</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+ Highcharts.setOptions({
+    lang: {
+         months: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
+            'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
+            weekdays: ['Dimanche', 'Lundi', 'Mardi', 'Mercredi',
+                'Jeudi', 'Vendredi', 'Samedi'],
+                shortMonths: ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil',
+                    'Août', 'Sept', 'Oct', 'Nov', 'Déc'],
+                    decimalPoint: ',',
+                    downloadPNG: 'Télécharger en image PNG',
+                    downloadJPEG: 'Télécharger en image JPEG',
+                    downloadPDF: 'Télécharger en document PDF',
+                    downloadSVG: 'Télécharger en document Vectoriel',
+                    exportButtonTitle: 'Export du graphique',
+                    loading: 'Chargement en cours...',
+                    printButtonTitle: 'Imprimer le graphique',
+                    resetZoom: 'Réinitialiser le zoom',
+                    resetZoomTitle: 'Réinitialiser le zoom au niveau 1:1',
+                    thousandsSep: ' ',
+                    decimalPoint: ','
+    }
+});
+
+    $('#container').highcharts({
+  
+ 
+
+        chart: {
+            type: 'scatter',
+            zoomType: 'x'     
+        },
+        title: {
+            text: 'Numéros censurés (1916 - bataille de Verdun) - <i>Journal des débats politiques et littéraires</i> (Europeana Newspaper, BnF)'
+        },
+        
+         subtitle: {
+                text: document.ontouchstart === undefined ?
+                        'Cliquez et faites glisser la souris pour zoomer' : 'Pinch the chart to zoom in'
+            },
+        xAxis: {      
+            type: 'datetime',         
+        },
+        yAxis: [{   // axes des articles 
+        	 min:0 ,  
+           
+           labels:{enabled: false},  
+           type: 'category',
+           allowDecimals: false,
+           gridLineColor: 'white',
+           title: {
+           	style: {"color": "rgba(150, 50, 200, .9)"},
+                text: 'Articles censurés'}
+            },
+            { // axe des occurences 'Verdun'
+            //max: 40,
+           // minorTickInterval: 1,
+           // type: 'logarithmic',
+           opposite: true,
+           labels:{enabled: false},         
+           gridLineColor: 'white',
+          
+           title: {
+           	style: {"color": "darkgreen"},
+                text: 'Occurences "Verdun"'}
+          }],
+            
+        legend: { enabled: true 
+        },
+        
+        plotOptions: {
+        column: {
+                grouping: false,
+                shadow: true,
+                borderWidth: 0,
+                borderColor: 'white',
+                borderRadius: 0,
+                maxPointWidth: 100,
+                PointWidth: 100,
+                animation: false
+            },
+        	series: {
+                    cursor: 'pointer',
+                     lineWidth: 0,
+                     borderWidth: 10,
+                     shadow: 'false',
+                    point: {  
+                    	  
+                        events: {
+                            click: function (e) {
+                                hs.htmlExpand(null, {
+                                    pageOrigin: {
+                                        x: e.pageX || e.clientX,
+                                        y: e.pageY || e.clientY
+                                    },
+                                    headingText: 'Voir le numéro',
+                                    maincontentText: '<a target=_blank href=http://gallica.bnf.fr/ark:/12148/cb39294634r/date' + 
+                                    Highcharts.dateFormat('%Y%m%d', this.x) + '>' 
+                                    + '<small>'+ Highcharts.dateFormat('%d %B %Y', this.x) + '</small></a>',
+                                    width:180
+                                });
+                            }
+                        }
+                    }
+                },
+                
+                
+           scatter: {
+                marker: {
+                    radius: 8,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+               states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                }
+                  
+            }
+        },
+        series: [
+       
+        {
+            name:  'Une',
+            yAxis: 1,
+            zIndex: 2,
+            tooltip: {
+                    shared: false,
+                    headerFormat: '<b>{series.name}</b>',
+                    pointFormat: ''
+                },      
+            color: 'rgba(126,86,134,0.7)',
+            pointPadding: 0.1,
+            shadow: false,
+            data: [
+   [Date.UTC(1916,1,11),1],          
+    [Date.UTC(1916,1,13),1],   
+  [Date.UTC(1916,1,17),1],
+  [Date.UTC(1916,1,20),1],
+  [Date.UTC(1916,1,21),1],
+  
+  
+  [Date.UTC(1916,4,05),1],
+  [Date.UTC(1916,4,12),1],
+   [Date.UTC(1916,4,24),1],
+  [Date.UTC(1916,4,31),1],
+  [Date.UTC(1916,5,04),1],
+  
+  [Date.UTC(1916,5,13),1],
+  [Date.UTC(1916,5,18),1],
+  [Date.UTC(1916,6,03),1],
+  [Date.UTC(1916,6,08),1],
+  [Date.UTC(1916,6,21),1],
+  [Date.UTC(1916,6,22),1],
+  [Date.UTC(1916,6,23),1],
+  
+   [Date.UTC(1916,7,02),1],
+  [Date.UTC(1916,7,26),1],
+
+  [Date.UTC(1916,8,09),1],
+  
+  [Date.UTC(1916,8,12),1],
+  [Date.UTC(1916,8,14),1],
+  [Date.UTC(1916,8,20),1],
+  [Date.UTC(1916,8,26),1],
+  [Date.UTC(1916,8,29),1],
+  [Date.UTC(1916,9,01),1],
+  [Date.UTC(1916,9,06),1],
+  [Date.UTC(1916,9,13),1],
+  [Date.UTC(1916,9,30),1],
+  [Date.UTC(1916,10,02),1],
+   [Date.UTC(1916,10,04),1],
+    [Date.UTC(1916,10,06),1],
+   [Date.UTC(1916,10,09),1],
+  [Date.UTC(1916,10,15),1],
+   [Date.UTC(1916,10,16),1],
+  [Date.UTC(1916,10,17),1],
+  [Date.UTC(1916,10,28),1],
+  [Date.UTC(1916,10,30),1],
+  [Date.UTC(1916,11,02),1],
+  [Date.UTC(1916,11,06),1],
+  [Date.UTC(1916,11,07),1],
+  [Date.UTC(1916,11,13),1],  
+  [Date.UTC(1916,11,22),1],
+  [Date.UTC(1916,11,28),1]
+]
+},        
+        {
+            name:  'Page 2',
+            color: 'rgba(100, 100, 100, .5)',
+          yAxis: 1,
+           zIndex: 2,
+           tooltip: {
+                    shared: false,
+                    headerFormat: '<b>{series.name}</b>',
+                    pointFormat: ''
+                },    
+            data: [
+             [Date.UTC(1916,1,6),2],
+              [Date.UTC(1916,1,9),2],
+              [Date.UTC(1916,1,10),2],
+               [Date.UTC(1916,1,12),2],  
+                [Date.UTC(1916,1,20),2],
+  [Date.UTC(1916,1,23),2],
+  [Date.UTC(1916,2,06),2],
+  [Date.UTC(1916,2,10),2],
+ 
+  [Date.UTC(1916,2,12),2],
+ 
+  [Date.UTC(1916,2,27),2],
+ 
+  [Date.UTC(1916,3,08),2],
+  [Date.UTC(1916,3,17),2],
+ 
+  [Date.UTC(1916,3,27),2],
+  [Date.UTC(1916,4,01),2],
+  [Date.UTC(1916,4,03),2],
+
+  
+
+  [Date.UTC(1916,5,29),2],
+
+ 
+  [Date.UTC(1916,6,13),2],
+  [Date.UTC(1916,6,18),2],
+  [Date.UTC(1916,6,22),2],
+
+ 
+  [Date.UTC(1916,7,14),2],
+
+  [Date.UTC(1916,7,28),2],
+  [Date.UTC(1916,8,03),2],
+  
+  [Date.UTC(1916,8,11),2],
+  [Date.UTC(1916,8,12),2],
+  [Date.UTC(1916,8,14),2],
+ 
+
+  [Date.UTC(1916,8,25),2],
+  [Date.UTC(1916,8,28),2],
+ [Date.UTC(1916,9,10),2],
+ 
+  [Date.UTC(1916,9,11),2],
+  [Date.UTC(1916,9,12),2],
+  [Date.UTC(1916,9,17),2],
+[Date.UTC(1916,9,27),2],
+ 
+
+  [Date.UTC(1916,10,15),2],
+ 
+ 
+  [Date.UTC(1916,11,04),2],
+[Date.UTC(1916,11,07),2],
+  [Date.UTC(1916,11,15),2],
+
+  [Date.UTC(1916,11,22),2],
+ [Date.UTC(1916,11,26),2],
+  [Date.UTC(1916,11,28),2]
+  ]
+},
+
+	{
+            name:  'Page 3',
+            color: 'rgba(50, 50, 120, .5)',
+           yAxis: 1,
+            zIndex: 2,
+            tooltip: {
+                    shared: false,
+                    headerFormat: '<b>{series.name}</b>',
+                    pointFormat: ''
+                },    
+            data: [
+             [Date.UTC(1916,1,19),3],  
+  [Date.UTC(1916,2,16),3],
+  [Date.UTC(1916,2,19),3],
+  [Date.UTC(1916,4,09),3],
+  [Date.UTC(1916,4,11),3],
+  [Date.UTC(1916,4,12),3],
+  [Date.UTC(1916,4,23),3],
+  [Date.UTC(1916,5,02),3],
+  [Date.UTC(1916,5,07),3],
+ 
+ 
+  [Date.UTC(1916,5,27),3],
+ 
+  [Date.UTC(1916,6,01),3],
+  [Date.UTC(1916,6,05),3],
+  [Date.UTC(1916,6,06),3],
+  [Date.UTC(1916,6,08),3],
+  
+ 
+  [Date.UTC(1916,7,20),3],
+
+
+
+  [Date.UTC(1916,8,27),3],
+ 
+  [Date.UTC(1916,9,01),3],
+ 
+  [Date.UTC(1916,9,11),3],
+  
+  [Date.UTC(1916,9,13),3], 
+  [Date.UTC(1916,9,28),3],
+ 
+  [Date.UTC(1916,10,05),3],  
+  [Date.UTC(1916,11,26),3],
+  [Date.UTC(1916,11,28),3]
+          ]},
+          {
+            name:  'Page 4',
+            color: 'rgba(150, 50, 100, .5)',
+           yAxis: 1,
+            zIndex: 2,
+            tooltip: {
+                    shared: false,
+                    headerFormat: '<b>{series.name}</b>',
+                    pointFormat: ''
+                },    
+            data: [
+  [Date.UTC(1916,1,10),4],        
+  [Date.UTC(1916,1,11),4],      
+  [Date.UTC(1916,1,13),4],   
+   [Date.UTC(1916,1,16),4],   
+    [Date.UTC(1916,1,17),4],  
+    
+  [Date.UTC(1916,1,24),4],
+  
+  [Date.UTC(1916,2,05),4],
+  [Date.UTC(1916,2,28),4],
+ 
+  [Date.UTC(1916,3,02),4],
+ 
+
+  [Date.UTC(1916,3,14),4],
+ 
+ [Date.UTC(1916,3,20),4],
+ 
+  [Date.UTC(1916,3,30),4],
+ 
+
+  [Date.UTC(1916,4,10),4],
+  
+  [Date.UTC(1916,4,14),4],
+  [Date.UTC(1916,4,17),4],
+
+  [Date.UTC(1916,4,24),4],
+
+  [Date.UTC(1916,4,28),4],
+  [Date.UTC(1916,5,04),4],
+  [Date.UTC(1916,5,09),4],
+ 
+
+
+  [Date.UTC(1916,5,18),4],
+  
+  [Date.UTC(1916,5,22),4],
+  [Date.UTC(1916,5,23),4],
+ 
+  [Date.UTC(1916,5,26),4],
+ 
+  [Date.UTC(1916,6,05),4],
+  [Date.UTC(1916,6,17),4],
+
+  [Date.UTC(1916,6,29),4],
+  [Date.UTC(1916,6,30),4],
+  [Date.UTC(1916,7,04),4],
+  [Date.UTC(1916,7,12),4],
+  [Date.UTC(1916,7,25),4],
+  [Date.UTC(1916,7,28),4],
+
+  [Date.UTC(1916,8,14),4],
+
+  [Date.UTC(1916,8,26),4],
+  [Date.UTC(1916,9,01),4],
+  [Date.UTC(1916,9,30),4],
+  [Date.UTC(1916,10,03),4], 
+  [Date.UTC(1916,10,05),4],
+  [Date.UTC(1916,10,06),4],
+  [Date.UTC(1916,10,07),4],
+  [Date.UTC(1916,11,01),4],
+  [Date.UTC(1916,11,07),4],
+  [Date.UTC(1916,11,22),4],
+       
+          ]},
+          
+           {
+            name:  'Articles censurés/mois',
+            yAxis: 1,
+            //step: 'center',
+            type: 'column',
+       // visible: false,
+            zIndex: 1,
+            color: 'rgba(100, 100, 150, 0.2)',
+           tooltip: {
+                    shared: false,
+                headerFormat: '<b>{point.key: %B}</b> : ',
+                    pointFormat: '{point.y}'
+                }   ,       
+            data: [ 
+             [Date.UTC(1916,1,6),0],
+            [Date.UTC(1916,1,15),18], 
+            [Date.UTC(1916,2,15),8] ,
+            [Date.UTC(1916,3,15),7] ,
+            [Date.UTC(1916,4,15),15],
+            [Date.UTC(1916,5,15),13],
+            [Date.UTC(1916,6,15),16] ,
+            [Date.UTC(1916,7,15),9] ,
+            [Date.UTC(1916,8,15),15],
+             [Date.UTC(1916,9,15),15],
+              [Date.UTC(1916,10,15),15],
+               [Date.UTC(1916,11,15),17], 
+           [Date.UTC(1916,11,28),0]    
+               ]
+         } ,
+           
+                
+            {name: 'Occurences "Verdun"/jour',
+            type: 'spline',
+            visible: false,
+           //yAxis: 2,
+           zIndex: 2,
+            color: '#8A7E19',
+           tooltip: {
+                    shared: false,
+                
+                headerFormat: '<b>{point.key:%d %B %Y} : </b>',
+                    pointFormat: '{point.y}'
+                }   ,       
+            data: [ 
+          // [Date.UTC(1916,0,02),1],
+// [Date.UTC(1916,0,07),1],
+// [Date.UTC(1916,0,12),1],
+// [Date.UTC(1916,0,16),1],
+[Date.UTC(1916,1,05),8],
+[Date.UTC(1916,1,06),7],
+[Date.UTC(1916,1,07),1],
+[Date.UTC(1916,1,08),2],
+[Date.UTC(1916,1,09),2],
+[Date.UTC(1916,1,10),1],
+[Date.UTC(1916,1,12),1],
+[Date.UTC(1916,1,14),1],
+[Date.UTC(1916,1,17),1],
+[Date.UTC(1916,1,22),2],
+[Date.UTC(1916,1,23),3],
+[Date.UTC(1916,1,24),4],  
+[Date.UTC(1916,1,25),9],  // Douaumont marker: {symbol: 'cross'}
+[Date.UTC(1916,1,26),12],
+[Date.UTC(1916,1,27),14],
+[Date.UTC(1916,1,28),34],
+[Date.UTC(1916,1,29),26],
+[Date.UTC(1916,2,01),27],
+[Date.UTC(1916,2,02),25],
+[Date.UTC(1916,2,03),29],
+[Date.UTC(1916,2,04),13],
+[Date.UTC(1916,2,05),19],
+[Date.UTC(1916,2,06),26],
+[Date.UTC(1916,2,07),31],
+[Date.UTC(1916,2,08),33],
+[Date.UTC(1916,2,09),24],
+[Date.UTC(1916,2,10),18],
+[Date.UTC(1916,2,11),18],
+[Date.UTC(1916,2,12),22],
+[Date.UTC(1916,2,13),12],
+[Date.UTC(1916,2,14),19],
+[Date.UTC(1916,2,15),17],
+[Date.UTC(1916,2,16),15],
+[Date.UTC(1916,2,17),17],
+[Date.UTC(1916,2,18),31],
+[Date.UTC(1916,2,19),14],
+[Date.UTC(1916,2,20),14],
+[Date.UTC(1916,2,21),13],
+[Date.UTC(1916,2,22),15],
+[Date.UTC(1916,2,23),22],
+[Date.UTC(1916,2,24),9],
+[Date.UTC(1916,2,25),8],
+[Date.UTC(1916,2,26),15],
+[Date.UTC(1916,2,27),10],
+[Date.UTC(1916,2,28),18],
+[Date.UTC(1916,2,29),12],
+[Date.UTC(1916,2,30),5],
+[Date.UTC(1916,2,31),9],
+[Date.UTC(1916,3,01),14],
+[Date.UTC(1916,3,02),11],
+[Date.UTC(1916,3,03),5],
+[Date.UTC(1916,3,04),8],
+[Date.UTC(1916,3,05),10],
+[Date.UTC(1916,3,06),17],
+[Date.UTC(1916,3,07),8],
+[Date.UTC(1916,3,08),8],
+[Date.UTC(1916,3,09),3],  // Mort-homme
+[Date.UTC(1916,3,10),2],
+[Date.UTC(1916,3,11),11],
+[Date.UTC(1916,3,12),7],
+[Date.UTC(1916,3,13),11],
+[Date.UTC(1916,3,14),5],
+[Date.UTC(1916,3,15),11],
+[Date.UTC(1916,3,16),11],
+[Date.UTC(1916,3,17),10],
+[Date.UTC(1916,3,18),11],
+[Date.UTC(1916,3,19),11],
+[Date.UTC(1916,3,20),13],
+[Date.UTC(1916,3,21),3],
+[Date.UTC(1916,3,22),6],
+[Date.UTC(1916,3,23),12],
+[Date.UTC(1916,3,24),10],
+[Date.UTC(1916,3,25),8],
+[Date.UTC(1916,3,26),5],
+[Date.UTC(1916,3,27),2],
+[Date.UTC(1916,3,28),5],
+[Date.UTC(1916,3,29),4],
+[Date.UTC(1916,3,30),12],
+[Date.UTC(1916,4,01),4],  //Nivelle  remplace Pétain
+[Date.UTC(1916,4,02),13],
+[Date.UTC(1916,4,03),18],
+[Date.UTC(1916,4,04),8],
+[Date.UTC(1916,4,05),3],
+[Date.UTC(1916,4,06),10],
+[Date.UTC(1916,4,07),2],
+[Date.UTC(1916,4,08),9],
+[Date.UTC(1916,4,09),8],
+[Date.UTC(1916,4,10),9],
+[Date.UTC(1916,4,11),6],
+[Date.UTC(1916,4,12),14],
+[Date.UTC(1916,4,13),8],
+[Date.UTC(1916,4,14),3],
+[Date.UTC(1916,4,15),12],
+[Date.UTC(1916,4,16),5],
+[Date.UTC(1916,4,17),2],
+[Date.UTC(1916,4,18),4],
+[Date.UTC(1916,4,19),14],
+[Date.UTC(1916,4,20),7],
+[Date.UTC(1916,4,21),9],
+[Date.UTC(1916,4,22),10], // Fort de Douaumont, Mangin-Nivelle
+[Date.UTC(1916,4,23),10],
+[Date.UTC(1916,4,24),10],
+[Date.UTC(1916,4,25),7],
+[Date.UTC(1916,4,26),5],
+[Date.UTC(1916,4,27),14],
+[Date.UTC(1916,4,28),8],
+[Date.UTC(1916,4,29),5],
+[Date.UTC(1916,4,30),2],
+[Date.UTC(1916,4,31),18],
+[Date.UTC(1916,5,01),9],
+[Date.UTC(1916,5,02),1],
+[Date.UTC(1916,5,03),3],
+[Date.UTC(1916,5,04),11],
+[Date.UTC(1916,5,05),9],
+[Date.UTC(1916,5,06),3],
+[Date.UTC(1916,5,07),7], // reddition du fort de Vaux.
+[Date.UTC(1916,5,08),9],
+[Date.UTC(1916,5,09),4],
+[Date.UTC(1916,5,10),9],
+[Date.UTC(1916,5,11),3],
+[Date.UTC(1916,5,12),7],
+[Date.UTC(1916,5,13),3],
+[Date.UTC(1916,5,14),2],
+[Date.UTC(1916,5,15),20],
+[Date.UTC(1916,5,16),17],
+[Date.UTC(1916,5,17),18],
+[Date.UTC(1916,5,18),5],
+[Date.UTC(1916,5,19),4],
+[Date.UTC(1916,5,20),3],
+[Date.UTC(1916,5,21),4],
+[Date.UTC(1916,5,22),4],
+[Date.UTC(1916,5,23),5], // Fleury
+[Date.UTC(1916,5,24),8],
+[Date.UTC(1916,5,25),11],
+[Date.UTC(1916,5,26),6],
+[Date.UTC(1916,5,27),4],
+[Date.UTC(1916,5,28),4],
+[Date.UTC(1916,5,29),4],
+[Date.UTC(1916,5,30),3],
+[Date.UTC(1916,6,01),3],
+[Date.UTC(1916,6,03),4],
+[Date.UTC(1916,6,04),14],
+[Date.UTC(1916,6,05),14],
+[Date.UTC(1916,6,06),19],
+[Date.UTC(1916,6,07),10],
+[Date.UTC(1916,6,08),12],
+[Date.UTC(1916,6,09),5],
+[Date.UTC(1916,6,10),1],
+[Date.UTC(1916,6,11),7],
+[Date.UTC(1916,6,12),2], // Souville
+[Date.UTC(1916,6,13),1],
+[Date.UTC(1916,6,14),5],
+[Date.UTC(1916,6,15),25],
+[Date.UTC(1916,6,16),6],
+[Date.UTC(1916,6,17),3],
+[Date.UTC(1916,6,18),5],
+[Date.UTC(1916,6,19),14],
+[Date.UTC(1916,6,20),8],
+[Date.UTC(1916,6,21),3],
+[Date.UTC(1916,6,22),4],
+[Date.UTC(1916,6,23),3],
+[Date.UTC(1916,6,24),7],
+[Date.UTC(1916,6,25),5],
+[Date.UTC(1916,6,26),13],
+[Date.UTC(1916,6,27),8],
+[Date.UTC(1916,6,28),1],
+[Date.UTC(1916,6,29),13],
+[Date.UTC(1916,6,30),1],
+[Date.UTC(1916,6,31),3],
+[Date.UTC(1916,7,01),9],
+[Date.UTC(1916,7,02),3],
+[Date.UTC(1916,7,03),15],
+[Date.UTC(1916,7,04),8],
+[Date.UTC(1916,7,05),12],
+[Date.UTC(1916,7,06),8],
+[Date.UTC(1916,7,07),2],
+[Date.UTC(1916,7,08),6],
+[Date.UTC(1916,7,09),3],
+[Date.UTC(1916,7,10),5],
+[Date.UTC(1916,7,11),6],
+[Date.UTC(1916,7,13),11],
+[Date.UTC(1916,7,14),3],
+[Date.UTC(1916,7,15),2],
+[Date.UTC(1916,7,16),2],
+[Date.UTC(1916,7,17),3],
+[Date.UTC(1916,7,18),3],
+[Date.UTC(1916,7,19),9],
+[Date.UTC(1916,7,20),8],
+[Date.UTC(1916,7,21),3],
+[Date.UTC(1916,7,22),10],
+[Date.UTC(1916,7,23),11],
+[Date.UTC(1916,7,24),8],
+[Date.UTC(1916,7,25),3],
+[Date.UTC(1916,7,26),5],
+[Date.UTC(1916,7,27),2],
+[Date.UTC(1916,7,28),7],
+[Date.UTC(1916,7,29),1],
+[Date.UTC(1916,7,30),6],
+[Date.UTC(1916,7,31),4],
+[Date.UTC(1916,8,01),3],
+[Date.UTC(1916,8,02),9],
+[Date.UTC(1916,8,03),1],
+[Date.UTC(1916,8,04),2],
+[Date.UTC(1916,8,05),1],
+[Date.UTC(1916,8,06),12],
+[Date.UTC(1916,8,08),5],
+[Date.UTC(1916,8,09),2],
+[Date.UTC(1916,8,10),3],
+[Date.UTC(1916,8,11),5],
+[Date.UTC(1916,8,12),3],
+[Date.UTC(1916,8,13),19],
+[Date.UTC(1916,8,14),4],
+[Date.UTC(1916,8,15),37],
+[Date.UTC(1916,8,16),11],
+[Date.UTC(1916,8,17),7],
+[Date.UTC(1916,8,18),3],
+[Date.UTC(1916,8,19),2],
+[Date.UTC(1916,8,20),7],
+[Date.UTC(1916,8,23),2],
+[Date.UTC(1916,8,24),2], //reprise du fort de Douaumont
+[Date.UTC(1916,8,25),1],
+[Date.UTC(1916,8,26),5],
+[Date.UTC(1916,8,27),5],
+[Date.UTC(1916,8,28),10],
+[Date.UTC(1916,8,29),1],
+[Date.UTC(1916,8,30),2],
+[Date.UTC(1916,9,01),10],
+[Date.UTC(1916,9,02),5],
+[Date.UTC(1916,9,03),2],
+[Date.UTC(1916,9,04),3],
+[Date.UTC(1916,9,05),3],
+[Date.UTC(1916,9,06),2],
+[Date.UTC(1916,9,07),1],
+[Date.UTC(1916,9,09),5],
+[Date.UTC(1916,9,10),4],
+[Date.UTC(1916,9,11),4],
+[Date.UTC(1916,9,12),1],
+[Date.UTC(1916,9,13),1],
+[Date.UTC(1916,9,14),1],
+[Date.UTC(1916,9,15),3],
+[Date.UTC(1916,9,17),1],
+[Date.UTC(1916,9,18),4],
+[Date.UTC(1916,9,19),4],
+[Date.UTC(1916,9,21),13],
+[Date.UTC(1916,9,22),5],
+[Date.UTC(1916,9,23),2],
+[Date.UTC(1916,9,24),2],
+[Date.UTC(1916,9,25),4],
+[Date.UTC(1916,9,26),19],
+[Date.UTC(1916,9,27),23],
+[Date.UTC(1916,9,28),18],
+[Date.UTC(1916,9,29),15],
+[Date.UTC(1916,9,30),5],
+[Date.UTC(1916,9,31),4],
+[Date.UTC(1916,10,01),6],
+[Date.UTC(1916,10,02),7],
+[Date.UTC(1916,10,03),5],
+[Date.UTC(1916,10,04),11],
+[Date.UTC(1916,10,05),15],
+[Date.UTC(1916,10,06),4],
+[Date.UTC(1916,10,07),15],
+[Date.UTC(1916,10,08),13],
+[Date.UTC(1916,10,09),7],
+[Date.UTC(1916,10,10),1],
+[Date.UTC(1916,10,11),4],
+[Date.UTC(1916,10,12),2],
+[Date.UTC(1916,10,13),3],
+[Date.UTC(1916,10,14),4],
+[Date.UTC(1916,10,15),4],
+[Date.UTC(1916,10,16),1],
+[Date.UTC(1916,10,19),2],
+[Date.UTC(1916,10,20),2],
+[Date.UTC(1916,10,21),3],
+[Date.UTC(1916,10,22),4],
+[Date.UTC(1916,10,23),1],
+[Date.UTC(1916,10,24),1],
+[Date.UTC(1916,10,25),2],
+[Date.UTC(1916,10,26),2],
+[Date.UTC(1916,10,29),1],
+[Date.UTC(1916,11,01),1],
+[Date.UTC(1916,11,02),2],
+[Date.UTC(1916,11,04),1],
+[Date.UTC(1916,11,06),1],
+[Date.UTC(1916,11,07),1],
+[Date.UTC(1916,11,08),3],
+[Date.UTC(1916,11,11),2],
+[Date.UTC(1916,11,12),2],
+[Date.UTC(1916,11,13),2],
+[Date.UTC(1916,11,14),7],
+[Date.UTC(1916,11,15),8],
+[Date.UTC(1916,11,16),3],
+[Date.UTC(1916,11,17),10],
+[Date.UTC(1916,11,18),10],
+[Date.UTC(1916,11,19),6],
+[Date.UTC(1916,11,20),16],
+[Date.UTC(1916,11,21),6],
+[Date.UTC(1916,11,22),4],
+[Date.UTC(1916,11,23),4],
+[Date.UTC(1916,11,24),1],
+[Date.UTC(1916,11,25),6],
+[Date.UTC(1916,11,26),2],
+[Date.UTC(1916,11,27),2],
+[Date.UTC(1916,11,30),5],
+[Date.UTC(1916,11,31),1]
+]
+        },
+        {name: 'Evénéments',
+            type: 'scatter',
+            lineWidth : 0,  
+            lineColor: 'white',      
+            visible: false,
+           yAxis: 1,
+           zIndex: 5,
+           color: '#FFB914',
+            marker : {
+                    enabled : true,
+                    radius : 6,
+                    symbol: 'diamond',
+                },
+           tooltip: {
+                shared: false,
+                headerFormat: '<span style="align:center"><b>{point.key:%d %B %Y}</b> :<br/></span>',
+                pointFormat: '{point.myData}'
+                },
+                 
+            data: [ 
+                 {x: Date.UTC(1916,1,21),y: 18, myData: 'Offensive allemande sur Verdun'},   
+                  {x:Date.UTC(1916,1,24),y: 18,  myData: 'Pétain prend le commandement de Verdun'},
+                 {x: Date.UTC(1916,1,25),y: 18, myData: 'Prise du fort de Douaumont par les Allemands'}, 
+                  {x: Date.UTC(1916,1,26),y: 18, myData: 'Prise de la côte du Poivre'},   
+                 {x: Date.UTC(1916,2,5),y: 18, myData: 'Bombardement sur la rive gauche de la Meuse'},       
+                 {x: Date.UTC(1916,2,6),y: 18, myData: 'Attaque sur la rive gauche de la Meuse'},   
+                 {x: Date.UTC(1916,2,22),y: 18, myData: 'Les Allemands prennent le mamelon d’Haucourt'}, 
+                   {x: Date.UTC(1916,2,30),y: 18, myData: 'Les Allemands prennent Vaux'},          
+                 {x: Date.UTC(1916,3,09),y: 18, myData: 'Prise du point d’observation du Mort-Homme par les Allemands'}, 
+                 {x:Date.UTC(1916,4,01),y: 18,  myData: 'Le général Nivelle remplace Pétain'},
+                 {x:Date.UTC(1916,4,8),y: 18,  myData: 'Explosion au fort de Douaumont'},
+                 {x: Date.UTC(1916,4,22),y: 18, myData:  'Echec de l’offensive française de reconquête du Fort de Douaumont (Mangin-Nivelle)'},
+                  {x: Date.UTC(1916,4,24),y: 18, myData:  'Les Allemands s’emparent de Cumières'},
+                  {x: Date.UTC(1916,5,1), y: 18, myData: 'Assaut allemande sur Fleury'},
+                 {x: Date.UTC(1916,5,7), y: 18, myData: 'Les Allemands s’emparent du fort de Vaux'},               
+                 {x: Date.UTC(1916,5,23), y: 18, myData: 'Echec allemand au fort de Souville et prise du village de Fleury'},
+                 {x:  Date.UTC(1916,6,1), y: 18, myData: 'Offensive franco-britannique dans la Somme'},
+                 {x:  Date.UTC(1916,6,11), y: 18, myData: 'Assaut allemand sur le fort de Souville'},
+                  {x:  Date.UTC(1916,7,4), y: 18, myData: 'Reprise du fort de Souville par les Français'},
+                   {x: Date.UTC(1916,8,2),y: 18, myData: 'Arrêt de l’offensive allemande'},  
+                   {x: Date.UTC(1916,8,13),y: 18, myData: 'Contre-offensive française sur les forts de Verdun'} ,
+				{x: Date.UTC(1916,8,24),y: 18, myData: 'Reprise du fort de Douaumont par les Français'} ,
+				{x: Date.UTC(1916,9,28),y: 18, myData: 'L’artillerie française bombarde le fort de Vaux'}, 
+				{x: Date.UTC(1916,10,2),y: 18, myData: 'Reprise du fort de Vaux'},
+                 {x: Date.UTC(1916,10,15),y: 18, myData: 'Dernière contre-offensive française'},
+                 {x: Date.UTC(1916,11,18),y: 18, myData: 'Reprise de la ferme des Chambrettes, fin de la bataille de Verdun'},
+            ]  },
+        
+         
+
+ ],
+        
+    });
+});
+
+
+			</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+<script src="../../js/themes/EN.js"></script>
+
+<!-- Additional files for the Highslide popup effect -->
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide.config.js" charset="utf-8">
+
+
+  </script>
+<link rel="stylesheet" type="text/css" href="http://www.highcharts.com/joomla/media/com_demo/highslide.css" />
+
+
+<div id="container" style="min-width: 1400px; height: 500px;  margin: 0 auto"></div>
+
+	</body>
+</html>
+
