@@ -11,10 +11,10 @@ Detailled presentation :
 - [Français](https://altomator.wordpress.com/2016/01/17/presse-ancienne-data-mining/)
 
 ### Installation
-You can use XSLT (DOS scripts) or Perl script.
+You can use XSLT (DOS scripts) or Perl script (faster).
 
 Sample documents are stored in the "DOCS" folder.
-The metadata are generated in "STATS" folder.
+The metadata are generated in a "STATS" folder.
 
 #### XSLT
 Two DOS shell scripts :
@@ -34,7 +34,7 @@ For each document, its metadata are stored in the STATS folder under two formats
 An aggregated file (metadata.csv) contains all the CSV metadata.
 
 
-##### Tests
+##### Test
 1. Open a DOS terminal.
 2. Change dir to the batch folder
 3. >batch-EN.bat 
@@ -44,10 +44,10 @@ One Perl script : extractMD.pl
 
 For each document, its metadata are stored in the STATS folder under your prefered formats : XML, JSON, CSV, txt 
 
-##### Tests
+##### Test
 1. Open a shell terminal.
 2. Change dir to the batch folder
-3. >perl DOCS xml json
+3. >perl extractMD.pl DOCS xml json
 
 
 
