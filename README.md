@@ -11,8 +11,9 @@ Detailled presentation :
 - [Français](https://altomator.wordpress.com/2016/01/17/presse-ancienne-data-mining/)
 
 ### Installation
-You will need to use:
+You can use:
 
+1. XSLT
 Two DOS shell scripts :
 - batch-EN.bat
 - xslt.cmd
@@ -26,11 +27,20 @@ The XSLT are runned with Xalan-Java. Path to the Java bin must be set in xslt.cm
 The documents must be stored in a "DOCS" folder.
 The metadata are generated in a "STATS" folder.
 
-
 ### Tests
-1. Open a DOS command line.
+1. Open a command line terminal.
 2. Change dir to the batch folder
 3. >batch-EN.bat 
+
+2. Perl 
+One Perl script : extractMD.pl 
+>
+
+### Tests
+1. Open a command line terminal.
+2. Change dir to the batch folder
+3. >perl docs_folder xml json csv
+
 
 For each document, its metadata are stored in the STATS folder under two formats :
 - XML (raw metadata, with detailled values for each page)
