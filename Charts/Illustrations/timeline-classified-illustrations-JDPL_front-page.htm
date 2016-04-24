@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Number of illustrations per issue - Journal des D&eacute;bats politiques et litt&eacute;raires</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+         
+        $('#container').highcharts({
+            chart: {
+                type: 'scatter',
+                zoomType: 'x'
+            },
+            title: {
+                text: 'Illustrated issues  (complet dataset) - <i>Journal des Debats politiques et litteraires</i> (Europeana Newspaper, BnF)'
+            },
+            subtitle: {
+                text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+            },
+            xAxis: {
+                type: 'datetime'
+            },
+            yAxis: {
+                title: {
+                    text: 'Illustrations'
+                },
+                labels:{enabled: false},  
+         //   type: 'category',
+           allowDecimals: false,
+                min: 0,
+                max: 4
+            },
+            legend: {
+                enabled: false
+            },
+            plotOptions: {
+            	series: {
+                    cursor: 'pointer',
+                    point: {  
+                    	  
+                        events: {
+                            click: function (e) {
+                                hs.htmlExpand(null, {
+                                    pageOrigin: {
+                                        x: e.pageX || e.clientX,
+                                        y: e.pageY || e.clientY
+                                    },
+                                    headingText: 'See the issue',
+                                    maincontentText: '<a target=_blank href=http://gallica.bnf.fr/ark:/12148/cb39294634r/date' + 
+                                    Highcharts.dateFormat('%Y%m%d', this.x) + '>' 
+                                    + '<small>'+ Highcharts.dateFormat('%Y/%m/%d', this.x) + '</small></a>',
+                                    width: 80
+                                });
+                            }
+                        }
+                    }
+                },
+                    
+                scatter: {
+                     tooltip: {
+                    shared: true,
+					crosshairs: true,
+                    headerFormat: '<b>{series.name}</b>',
+                   pointFormat: ''
+                } ,     
+                    marker: {
+                        radius: 5,
+                        symbol: 'diamond',
+                        enabled: true,
+                        fillColor: 'red',
+                        lineColor: 'orange',
+                        lineWidth: 1
+                        
+                    },
+                    lineWidth: 0,
+                    states: {
+                        hover: {
+                            lineWidth: 1
+                        }
+                    },
+                    threshold: null
+                }
+            },
+            series: [
+             {
+                type: 'scatter',
+                 tooltip: {
+						shared: false,
+						headerFormat: '<span style="align:center"><b>Highly illustrated  page</b>: </span>',
+						pointFormat: '{point.myData}'
+                },
+                marker: {  radius: 4,
+                 fillColor: 'darkRed',},
+                name: 'Highly illustrated page ',
+               data: [
+  
+
+  {x: Date.UTC(1845,5,29),y:3,myData:5},
+
+
+  {x: Date.UTC(1854,9,01),y:3,myData:4},
+
+
+  {x: Date.UTC(1856,2,11),y:3,myData:4},
+
+
+  {x: Date.UTC(1859,9,16),y:3,myData:4},
+
+
+  {x: Date.UTC(1859,9,23),y:3,myData:4},
+
+
+  {x: Date.UTC(1865,10,01),y:3,myData:4},
+
+
+  {x: Date.UTC(1870,0,30),y:3,myData:4},
+
+
+  {x: Date.UTC(1872,3,07),y:3,myData:4},
+
+
+  {x: Date.UTC(1875,11,25),y:3,myData:4},
+
+
+  {x: Date.UTC(1880,9,03),y:3,myData:4},
+
+
+  {x: Date.UTC(1896,1,23),y:3,myData:1},
+
+
+  {x: Date.UTC(1896,1,23),y:3,myData:2},
+
+
+  {x: Date.UTC(1897,2,30),y:3,myData:2},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:2},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:3},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:4},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:5},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:6},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:7},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:8},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:9},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:10},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:11},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:12},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:14},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:2},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:3},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:4},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:5},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:6},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:7},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:8},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:9},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:10},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:11},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:12},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:13},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:14},
+
+
+  {x: Date.UTC(1899,11,24),y:3,myData:1},
+
+
+  {x: Date.UTC(1901,10,26),y:3,myData:2},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:2},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:4},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:5},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:6},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:7},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:8},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:9},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:10},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:11},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:12},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:13},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:14},
+
+
+  {x: Date.UTC(1912,9,23),y:3,myData:2},
+
+
+  {x: Date.UTC(1932,2,27),y:3,myData:5},
+
+
+  {x: Date.UTC(1936,6,22),y:3,myData:6},
+
+
+  {x: Date.UTC(1845,5,29),y:3,myData:5},
+
+
+  {x: Date.UTC(1854,9,01),y:3,myData:4},
+
+
+  {x: Date.UTC(1856,2,11),y:3,myData:4},
+
+
+  {x: Date.UTC(1859,9,16),y:3,myData:4},
+
+
+  {x: Date.UTC(1859,9,23),y:3,myData:4},
+
+
+  {x: Date.UTC(1865,10,01),y:3,myData:4},
+
+
+  {x: Date.UTC(1870,0,30),y:3,myData:4},
+
+
+  {x: Date.UTC(1872,3,07),y:3,myData:4},
+
+
+  {x: Date.UTC(1875,11,25),y:3,myData:4},
+
+
+  {x: Date.UTC(1880,9,03),y:3,myData:4},
+
+
+  {x: Date.UTC(1896,1,23),y:3,myData:1},
+
+
+  {x: Date.UTC(1896,1,23),y:3,myData:2},
+
+
+  {x: Date.UTC(1897,2,30),y:3,myData:2},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:2},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:3},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:4},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:5},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:6},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:7},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:8},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:9},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:10},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:11},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:12},
+
+
+  {x: Date.UTC(1898,3,30),y:3,myData:14},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:2},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:3},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:4},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:5},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:6},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:7},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:8},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:9},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:10},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:11},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:12},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:13},
+
+
+  {x: Date.UTC(1899,2,27),y:3,myData:14},
+
+
+  {x: Date.UTC(1899,11,24),y:3,myData:1},
+
+
+  {x: Date.UTC(1901,10,26),y:3,myData:2},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:2},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:4},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:5},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:6},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:7},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:8},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:9},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:10},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:11},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:12},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:13},
+
+
+  {x: Date.UTC(1902,5,14),y:3,myData:14},
+
+
+  {x: Date.UTC(1912,9,23),y:3,myData:2},
+
+
+  {x: Date.UTC(1932,2,27),y:3,myData:5},
+
+
+  {x: Date.UTC(1936,6,22),y:3,myData:6},
+
+
+
+
+               ]},
+               
+            {
+                type: 'scatter',
+                name: 'Full illustration inside',
+                 marker: {  radius: 4},
+                tooltip: {
+						shared: false,
+						headerFormat: '<span style="align:center"><b>Full illustration inside  page</b>: </span>',
+						pointFormat: '{point.myData}'
+                },
+               data: [
+{x: Date.UTC(1889,4,02), y:2, myData: '2'},
+
+    {x: Date.UTC(1891,2,19), y:2, myData: '2,3'},
+    {x: Date.UTC(1893,4,22), y:2, myData: '2'},
+    {x: Date.UTC(1938,10,28), y:2, myData: '2,3'},   
+
+               ]},
+               
+                      
+            {
+                type: 'scatter',
+                name: 'Full illustration on front page ',
+                 marker: {     radius: 6},
+               data: [
+  [Date.UTC(1889,4,02),1],
+  [Date.UTC(1889,5,15),1],
+  [Date.UTC(1891,7,27),1],
+  [Date.UTC(1891,9,27),1],
+  [Date.UTC(1892,7,31),1],
+  [Date.UTC(1892,11,09),1],
+  [Date.UTC(1893,8,06),1],
+  [Date.UTC(1894,3,29),1],
+  [Date.UTC(1894,5,07),1],
+  [Date.UTC(1894,8,12),1],
+  [Date.UTC(1895,4,30),1],
+  [Date.UTC(1897,3,25),1],
+  [Date.UTC(1898,3,25),1],
+  [Date.UTC(1898,8,26),1],
+  [Date.UTC(1899,8,26),1],
+  [Date.UTC(1900,5,26),1], 
+  [Date.UTC(1938,10,28),1]
+ 
+
+]
+
+
+            }]
+        });
+    });
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+<script src="../../js/themes/EN.js"></script>
+
+<!-- Additional files for the Highslide popup effect -->
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="http://www.highcharts.com/joomla/media/com_demo/highslide.css" />
+
+
+<div id="container" style="min-width: 1200px; height: 300px; margin: 0 auto"></div>
+
+	</body>
+</html>

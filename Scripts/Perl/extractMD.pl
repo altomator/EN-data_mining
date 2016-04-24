@@ -355,6 +355,7 @@ sub ecrireMD {
       print {$fh} $hash{$p."_blocsPub"}.";";
       print {$fh} $hash{$p."_blocsIllustration"}.";";
       	}
+     print {$fh} "\n";
   }
   elsif ($format eq "xml") {
   	print "xml...";

@@ -57,34 +57,40 @@ $(function () {
                         }
                     }
                 },
-                area: {
-                    fillColor: {
-                        linearGradient: {
-                            x1: 0,
-                            y1: 0,
-                            x2: 0,
-                            y2: 1
-                        },
-                        stops: [
-                            [0, Highcharts.getOptions().colors[0]],
-                            [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
-                        ]
-                    },
-                    marker: {
-                        radius: 2
-                    },
-                    lineWidth: 1,
+                scatter: {
+       	         
+                marker: {
+                	  
+                    radius: 2,
                     states: {
                         hover: {
-                            lineWidth: 1
+                            enabled: true,
+                            lineColor: Highcharts.getOptions().colors[0]
                         }
-                    },
-                    threshold: null
-                }
+                    }
+                },
+               states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+                
+          
+               tooltip: {
+                    shared: true,
+                crosshairs: true,
+                headerFormat: '<b>{series.name}</b> : ',
+                    pointFormat: '{point.y} '
+                }          
+            }
+            
+                
             },
 
             series: [{
-                type: 'area',
+                
                 name: 'Illustr. ',
                data: [
         [Date.UTC(1814,3,1),0],
@@ -47904,9 +47910,9 @@ $(function () {
 <script src="../../js/themes/EN.js"></script>
 
 <!-- Additional files for the Highslide popup effect -->
-<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
-<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="http://www.highcharts.com/joomla/media/com_demo/highslide.css" />
+<script src="../../js/popup/highslide-full.min.js"></script>
+<script src="../../js/popup/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="../../js/popup/highslide.css" />
 
 
 <div id="container" style="min-width: 1200px; height: 600px; margin: 0 auto"></div>
