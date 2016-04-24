@@ -43,15 +43,15 @@ An aggregated file (metadata.csv) contains all the CSV metadata.
 Faster and richer (more metadata) than the XSLT scripts.
 
 One Perl script : extractMD.pl 
-For each document, its metadata are stored in the STATS folder under your prefered formats : XML, JSON, CSV, txt 
-
+One shell script: batch.sh
+For each document, metadata are stored in the STATS folder (available formats : XML, JSON, CSV, txt)
 
 ##### Test
 1. Open a shell terminal.
 2. Change dir to the batch folder
-3. >perl extractMD.pl DOCS xml json
+3. >perl extractMD.pl DOCS xml json csv
 
-
+Note: the batch.sh script runs extractMD.pl (3 formats: XML, JSON, CSV) and package the metadata files (.zip).
 
 ### Charts
 See on [Github](https://github.com/altomator/EN-data_mining/tree/master/Charts) and [here](http://altomator.github.io/EN-data_mining/).
