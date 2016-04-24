@@ -52,7 +52,7 @@ For each document, metadata are stored in the STATS folder (available formats : 
 ##### Test
 1. Open a shell terminal.
 2. Change dir to the batch folder
-3. >perl extractMD.pl DOCS xml json
+3. >perl extractMD.pl DOCS xml json csv
 
 
 
