@@ -11,7 +11,8 @@ Detailled presentation: [English](http://altomator.github.io/EN-data_mining/)
 ### Installation
 You can use a XSLT stylesheet (called with DOS scripts) or a Perl script (faster).
 
-Sample documents are stored in the "DOCS" folder.
+Sample documents are stored in the "DOCS" folder. The scripts have been designed for the [CCS](https://content-conversion.com/wp-content/uploads/2014/09/CCS-METS-ALTO-Info_basic_20140909.pdf) METS/ALTO profil, but this can be easily fixed.
+
 The metadata are generated in a "STATS" folder.
 
 #### XSLT
