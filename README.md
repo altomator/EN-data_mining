@@ -1,10 +1,10 @@
 ## EN-data_mining
-*Data Mining Historical Newspaper Metadata (Europeana Newspaper Project)*
+*Data Mining Historical Newspapers Metadata (Europeana Newspaper Project)*
 
 ### Synopsis
 Newspapers from European digital librabries collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspapers (www.europeana-newspapers.eu). The OLR refinement consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using the METS/ALTO formats.
 
-From each digital document is derived a set of bibliographical (date of publication, title) and quantitative metadata relating to content (number of pages, articles, words, illustrations, etc.). Shell and XSLT or Perl scripts are used to extract some metadata from METS manifest or ALTO files.
+From each digital document is derived a set of bibliographical metadata (date of publication, title) and quantitative metadata related to content and layout (number of pages, articles, words, illustrations, etc.). Shell and XSLT or Perl scripts are used to extract some metadata from METS manifest or from ALTO files.
 
 Detailled presentation: [English](http://altomator.github.io/EN-data_mining/)
 
