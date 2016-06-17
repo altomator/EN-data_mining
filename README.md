@@ -2,16 +2,14 @@
 *Data Mining Historical Newspaper Metadata (Europeana Newspaper Project)*
 
 ### Synopsis
-Newspapers from European digital librabries collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspapers (www.europeana-newspapers.eu). The OLR refinement (performed by CCS) consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using the METS/ALTO formats.
+Newspapers from European digital librabries collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspapers (www.europeana-newspapers.eu). The OLR refinement consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using the METS/ALTO formats.
 
-From each digital document is derived a set of bibliographical and descriptive metadata relating to content (date of publication, number of pages, articles, words, illustrations, etc.). Shell and XSLT scripts called with Xalan-Java are used to extract some metadata from METS manifest or OCR files.
+From each digital document is derived a set of bibliographical (date of publication, title) and quantitative metadata relating to content (number of pages, articles, words, illustrations, etc.). Shell and XSLT or Perl scripts are used to extract some metadata from METS manifest or ALTO files.
 
-Detailled presentation :
-- [English](http://altomator.github.io/EN-data_mining/)
-- [Français](https://altomator.wordpress.com/2016/01/17/presse-ancienne-data-mining/)
+Detailled presentation: [English](http://altomator.github.io/EN-data_mining/)
 
 ### Installation
-You can use XSLT (DOS scripts) or Perl script (faster).
+You can use a XSLT stylesheet (called with DOS scripts) or a Perl script (faster).
 
 Sample documents are stored in the "DOCS" folder.
 The metadata are generated in a "STATS" folder.
@@ -21,11 +19,11 @@ Two DOS shell scripts :
 - batch-EN.bat
 - xslt.cmd
 
-Two XSLT sheets:
+Two XSLT stylesheets:
 - analyseAltosCCS.xsl
 - calculeStatsMETS_CSV.xsl
 
-The XSLT are runned with Xalan-Java. Path to the Java bin must be set in xslt.cmd.
+The XSLT are runned with Xalan-Java. Path to the Java binary must be set in xslt.cmd.
 
 For each document, its metadata are stored in the STATS folder under two formats :
 - XML (raw metadata, with detailled values for each page)
@@ -39,18 +37,17 @@ An aggregated file (metadata.csv) contains all the CSV metadata.
 2. Change dir to the batch folder
 3. >batch-EN.bat 
 
-#### Perl 
+#### Perl script
 Faster and richer (more metadata) than the XSLT scripts.
 
-
 - One Perl script: extractMD.pl 
-- One shell script: batch.sh (runs the Perl script and packages the files)
+- One shell script (Bash): batch.sh (runs the Perl script and packages the results files)
 
 For each document, metadata are stored in the STATS folder (available formats : XML, JSON, CSV, txt)
 
 
 ##### Test
-1. Open a shell terminal.
+1. Open a shell terminal (Linux, Mac OS X).
 2. Change dir to the batch folder
 3. >perl extractMD.pl DOCS xml json csv
 
@@ -62,7 +59,7 @@ See on [Github](https://github.com/altomator/EN-data_mining/tree/master/Charts) 
 (Made with [Highcharts](www.highcharts.com))
 
 ### Datasets
-The complete set of derived data contains about 4,500,000 atomic metadata from six national and regional French newspapers (1814-1945, 880,000 pages, 150,000 issues) of Gallica (www.gallica.fr) press collections:
+The complete set of derived data contains about 5,500,000 atomic metadata from six national and regional French newspapers (1814-1945, 880,000 pages, 150,000 issues) of Gallica (www.gallica.fr) press collections:
 - *Le Matin*
 - *Le Gaulois*
 - *Le Petit journal illustré*
