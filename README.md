@@ -6,7 +6,7 @@ Newspapers from European digital librabries collections are part of the data set
 
 From each digital document is derived a set of bibliographical metadata (date of publication, title) and quantitative metadata related to content and layout (number of pages, articles, words, illustrations, etc.). Shell and XSLT or Perl scripts are used to extract some metadata from METS manifest or from ALTO files.
 
-Detailled presentation: [English](http://altomator.github.io/EN-data_mining/)
+[Detailled presentation](http://altomator.github.io/EN-data_mining/)
 
 ### Installation
 You can use a XSLT stylesheet (called with DOS scripts) or a Perl script (faster).
