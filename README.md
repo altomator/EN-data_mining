@@ -70,10 +70,19 @@ The complete set of derived data contains about 5,500,000 atomic metadata from s
 
 The datasets (XML, CSV or JSON formats) are publicly available [here](http://altomator.github.io/EN-data_mining)
 
-#### API 
-XQuery HTTP APIs to request [BaseX](http://basex.org/) XML databases:
+### API 
+XQuery based HTTP APIs to request [BaseX](http://basex.org/) XML databases:
 - findIllustratedPages: look for graphical pages (at least one illustration and a small word density)
-- findCaptionedIllustrations: look in the illustrations captions
+- findCaptionedIllustrations: look in the illustrations captions (to be used on the "captions" dataset)
+
+##### Test
+1. Install BaseX.
+2. Import one (or all) the datasets in a BaseX database.
+3. Launch the BaseX HTTP server (bin/basexhttp)
+4. Store the XQuery files (.xq) in $home$/BaseXWeb
+5. Fix the database name in the XQuery files (last lines of the files)
+6. Open a web browser and test the service: http://localhost:8984/rest/database_name (first connection: ID=admin, passwd=admin)
+7. Test the API: http://localhost:8984/rest?run=findCaptionedIllustrations.xq&fromDate=1886-01-01&keyword=statue.*libert%C3%A9
 
 
 ## License
