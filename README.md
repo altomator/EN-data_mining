@@ -68,8 +68,12 @@ The complete set of derived data contains about 5,500,000 atomic metadata from s
 - *Le Petit Parisien*
 - *Ouest-Eclair*
 
-See [Datasets](http://altomator.github.io/EN-data_mining)
+The datasets (XML, CSV or JSON formats) are publicly available [here](http://altomator.github.io/EN-data_mining)
 
+#### API 
+XQuery HTTP APIs to request [BaseX](http://basex.org/) XML databases:
+- findIllustratedPages: look for graphical pages (at least one illustration and a small word density)
+- findCaptionedIllustrations: look in the illustrations captions
 
 
 ## License
