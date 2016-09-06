@@ -79,7 +79,8 @@ XQuery based HTTP APIs to request [BaseX](http://basex.org/) XML databases:
 1. Install BaseX.
 2. Import one (or all) the datasets in a BaseX database.
 3. Launch the BaseX HTTP server (bin/basexhttp)
-4. Store the XQuery files (.xq) in $home$/BaseXWeb
+4. Say to BaseX where are your XQuery files, in the .basex config file (RESTXQPATH). Eg RESTXQPATH=$home$/BaseXWeb
+4. Store your XQuery files (.xq) in $home$/BaseXWeb
 5. Fix the database name in the XQuery files (last lines of the files)
 6. Open a web browser and test the service: http://localhost:8984/rest/database_name (first connection: ID=admin, passwd=admin)
 7. Test the API: http://localhost:8984/rest?run=findCaptionedIllustrations.xq&fromDate=1886-01-01&keyword=statue.*libert%C3%A9
