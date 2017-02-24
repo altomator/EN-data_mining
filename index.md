@@ -129,15 +129,15 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 ##### Layout and form factors
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern.png)
 
-[Average number of articles/illustrations/illustrations on front page, per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern_press.htm)
+[Average number of articles, illustrations and illustrations on front page (per page)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern_press.htm)
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.png)
 
-[Page format; and words, illustrations, ads density per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.htm)
+[Page format; and words, illustrations, ads density (per page)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.htm)
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.png)
 
-[Number of pages; words, illustrations, ads density per surface](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.htm)
+[Number of pages; words, illustrations, ads density (per surface)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.htm)
 
 ##### Content types
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/content.png)
