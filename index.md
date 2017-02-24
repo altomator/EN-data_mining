@@ -59,12 +59,12 @@ The complete set of derived data contains about 5,500,000 atomic metadata from s
 
 Made with [Highcharts](www.highcharts.com) and Google Charts.
 
-##### Format
+##### Page dimensions
 *Journal des débats politiques et littéraires* : [Page format ](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Formats/timeline-format-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
 
 *Ouest-Eclair (Ed. Nantes)* : [Page format ](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Formats/timeline-format-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
 
-##### Pages
+##### Pages number
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Pages/pages-mean.png)
 
 [Average number of pages per issue](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Pages/timeline-mean.htm) (timeline)
@@ -126,10 +126,18 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 
 
-##### Layout
+##### Layout and form factors
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern.png)
 
 [Average number of articles/illustrations/illustrations on front page, per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern_press.htm)
+
+![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.png)
+
+[Page format; and words, illustrations, ads density per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.htm)
+
+![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.png)
+
+[Number of pages; words, illustrations, ads density per surface](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.htm)
 
 ##### Content types
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/content.png)
@@ -142,6 +150,7 @@ Average number of blocks per issue (timeline):
 - [*Le Journal des débats politiques et littéraires*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/JDPL.htm)
 - [*Le Petit Parisien*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/Petit_Parisien.htm) 
 - [*L'Ouest-Eclair* (Rennes)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/Ouest_Eclair.htm) 
+
 
 ##### Missing issues
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Missing/calendar.png)
