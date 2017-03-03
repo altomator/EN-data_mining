@@ -154,10 +154,10 @@ Average number of blocks per issue (timeline):
 
 ##### Data Quality
 
-Issues per year in the dataset
+Issues per year:
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.png)
 
-[*Journal des débats politiques et littéraires*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.htm)
+[*Dataset*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.htm)
 
 Missing issues:
 
