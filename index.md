@@ -155,6 +155,7 @@ Average number of blocks per issue (timeline):
 ##### Data Quality
 
 Issues per year:
+
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.png)
 
 [*Dataset*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.htm)
