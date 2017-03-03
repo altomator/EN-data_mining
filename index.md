@@ -152,10 +152,20 @@ Average number of blocks per issue (timeline):
 - [*L'Ouest-Eclair* (Rennes)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/Ouest_Eclair.htm) 
 
 
-##### Missing issues
+##### Data Quality
+
+Issues per year in the dataset
+![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.png)
+
+[*Journal des débats politiques et littéraires*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.htm)
+
+Missing issues:
+
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/calendar.png)
 
 [*Journal des débats politiques et littéraires*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Missing/JDPL.htm) (calendar)
+
+
 
 ##### Timeline
 [Showcase timeline for the *Journal des débats politiques et littéraires* ](http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1g_5wor1L23oyUGoA8OVtqambhldaEn50V52j0gQs2tc&font=Bevan-PotanoSans&maptype=toner&lang=fr&start_at_slide=1&height=650)
