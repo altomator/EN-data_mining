@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Average number of articles/illustrations/illustrations on front page, per page</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+.highcharts-tooltip h3 {
+	margin: 0.3em 0;
+}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+
+        chart: {
+            type: 'bubble',
+            plotBorderWidth: 1,
+            zoomType: 'xy'
+        },
+
+        legend: {
+            enabled: false
+        },
+
+        title: {
+            text: 'Average number of articles/illustrations/illustrations on front page, per page'
+        },
+
+        subtitle: {
+            text: 'Source: <a href="http://www.europeana-newspapers.eu/">Europeana Newspapers</a>, BnF'
+        },
+
+        xAxis: {
+            gridLineWidth: 1,
+            title: {
+                text: 'Articles/page'
+            },
+            labels: {
+                format: '{value} articles'
+            },
+            plotLines: [{
+                color: 'red',
+                dashStyle: 'dot',
+                width: 1,
+                value: 11,
+                label: {
+                    align: 'middle',
+                    rotation: 0,
+                    y: 15,
+                    style: {
+                        fontStyle: 'italic',  
+                        color: '#808080'
+                    },
+                    text: 'Moy. : 11,3 articles/p'
+                },
+                zIndex: 3
+            }]
+        },
+
+        yAxis: {
+            startOnTick: false,
+            endOnTick: false,
+            title: {
+                text: 'Illustrations/page'
+            },
+            labels: {
+                format: '{value} Illustrations'
+            },
+            maxPadding: 0.2,
+            plotLines: [{
+                color: 'red',
+                dashStyle: 'dot',
+                width: 1,
+                value: 0.7,
+                label: {
+                    align: 'right',
+                    style: {
+                        fontStyle: 'italic',
+                        color: '#808080'
+                    },
+                    text: 'Moy. : 0,7 illustr./p',
+                    x: -10
+                },
+                zIndex: 3
+            }]
+        },
+
+        tooltip: {
+            useHTML: true,
+            headerFormat: '<table>',
+            pointFormat: '<tr><th colspan="2"><h3>{point.country}</h3></th></tr>' +
+                '<tr><th>Articles:</th><td>{point.x}</td></tr>' +
+                '<tr><th>Illustrations:</th><td>{point.y}</td></tr>' +
+                '<tr><th>Illustr. on front page:</th><td>{point.z}</td></tr>',
+            footerFormat: '</table>',
+            followPointer: true
+        },
+
+        plotOptions: {
+            series: {
+                dataLabels: {
+                    enabled: true,
+                   style: {
+                        fontSize: '9px'
+                        
+                    },
+                    format: '{point.name}'
+                }
+            }
+        },
+
+        series: [{
+            data: [
+                {x: 4.6, y: 0.05, z: 0.0, name: 'JDLP 19', color: '#FF6633', country: 'Journal des debats (19e s.)'},
+                {x: 13.5, y: 0.45, z: 0.02, name: 'JDLP 20', color: '#FF6633', country: 'Journal des debats (20e s.)'},
+                {x: 9.5, y: 0.08, z: 0.04, name: 'PP 19', color: '#99CC99', country: 'Petit Parisien (19e s.)'},
+                {x: 14, y: 9.31, z: 4.47, name: 'PP 20', color: '#99CC99', country: 'Petit Parisien (20e s.)'},
+                {x: 16.9, y: 0.3, z: 0.15, name: 'M 19', color: '#663300', country: 'Le Matin (19e s.)'},
+                {x: 16.1, y: 12.5, z: 6.21, name: 'M 20', color: '#663300',country: 'Le Matin (20e s.)'},
+                {x: 6.5, y: 0.35, z: 0.09, name: 'G 19', country: 'Le Gaulois (19e s.)'},
+                {x: 11.2, y: 0.6, z: 0.06, name: 'G 20', country: 'Le Gaulois (20e s.)'},
+                {x: 3.6, y: 4.23, z: 2.07, name: 'PJI 19', color: '#F3F781', country: 'Le Petit Journal illustré (19e s.)'},
+                {x: 2.7, y: 8.9, z: 1.01, name: 'PJI 20', color: '#F3F781', country: 'Le Petit Journal illustré (20e s.)'},
+                {x: 14.9, y: 2, z: 2, name: 'OE 19', color: '#33F781', country: 'Ouest-Eclair (19e s.)'},
+                {x: 11.6, y: 7.2, z: 2.47, name: 'OE 20', color: '#33F781', country: 'Ouest-Eclair (20e s.)'}
+                
+            ]
+        }]
+
+    });
+});
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/highcharts-more.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+
+<div id="container" style="height: 500px; min-width: 400px; max-width: 600px; margin: 0 auto"></div>
+	</body>
+</html>
