@@ -158,7 +158,7 @@ Issues per year:
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.png)
 
-[*Dataset*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.htm)
+[*Whole dataset*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.htm)
 
 Missing issues:
 
