@@ -153,7 +153,7 @@ Average number of blocks per issue (timeline):
 
 
 ##### Missing issues
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Missing/calendar.png)
+![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/calendar.png)
 
 [*Journal des débats politiques et littéraires*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Missing/JDPL.htm) (calendar)
 
