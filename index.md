@@ -8,7 +8,7 @@ BaseX database engine and XQuery APIs are then used to search the datasets.
 
 
 ### Articles, blogs
-- "Mining, Visualising and Analysing Historical Newspaper Data: the French National Library Experience". Digital Approach towards serial publications, Ghent Centre for Digital Humanities (GhentCDH) (Bruxelles, September 2017)
+- ["Mining, Visualising and Analysing Historical Newspaper Data: the French National Library Experience"](http://www.euklides.fr/blog/altomator/EN-DM/presentation_bxl_en.pdf) (presentation). Digital Approach towards serial publications, Ghent Centre for Digital Humanities (GhentCDH) (Bruxelles, September 2017)
 - ["Innovative Approaches of Historical Newspapers: Data Mining, Data Visualization, Semantic Enrichment"](http://www.euklides.fr/blog/altomator/EN-DM/article_en2.pdf) (article), [presentation](http://www.euklides.fr/blog/altomator/EN-DM/presentation_en2.pdf). IFLA News Media section (Lexington, August 2016)
 - ["Data Mining Historical Newspapers Metadata"](http://www.euklides.fr/blog/altomator/EN-DM/article_en.pdf) (article), [presentation](http://www.euklides.fr/blog/altomator/EN-DM/slides_en.pdf). IFLA News Media section 2016 (Hamburg, April 2016)
 - ["Data Mining Historical Newspapers Metadata"](http://www.euklides.fr/blog/altomator/EN-DM/poster_en.pdf) (poster). Documents Analysis Systems (Santorini, April 2016)
