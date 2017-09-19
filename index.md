@@ -1,8 +1,8 @@
 Newspapers from European digital libraries collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspapers (www.europeana-newspapers.eu). The OLR refinement (performed by [CCS](http://content-conversion.com)) consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using a METS/ALTO format.
 
-From each digital document is derived a set of bibliographical and descriptive metadata relating to content and layout (date of publication, number of pages, articles, words, illustrations, etc.). XSLT or Perl scripts are used to extract those metadata from METS manifest and OCR files. 
+From each digital document is derived a set of bibliographical, descriptive and quantitative metadata relating to content and layout (date of publication, number of pages, articles, words, illustrations, etc.). XSLT or Perl scripts are used to extract those metadata from METS manifest and OCR files. 
 
-BaseX database engine and XQuery APIs are then used to search the datasets.
+The BaseX XML database and XQuery APIs are then used to search the datasets and output graphs.
 
 ![](https://altomator.files.wordpress.com/2016/01/3.png)
 
