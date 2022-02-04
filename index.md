@@ -68,77 +68,77 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 ##### Pages number
 ![](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/pages-mean.png)
 
-[Average number of pages per issue](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/timeline-mean.htm) (timeline)
+[Average number of pages per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Pages/timeline-mean.htm) (timeline)
 
 ![](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/pages.png)
 
-[Average number of pages per issue per title](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/timeline-issue.htm) (timeline)
+[Average number of pages per issue per title](http://altomator.github.io/EN-data_mining/Charts/Samples/Pages/timeline-issue.htm) (timeline)
 
 ##### Articles
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/articles.png)
 
-[Average number of articles per issue](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/timeline-issue.htm) (timeline)
+[Average number of articles per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/timeline-issue.htm) (timeline)
 
-[Average number of articles per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/timeline-page.htm) (timeline)
+[Average number of articles per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/timeline-page.htm) (timeline)
 
-*Le Matin* : [Average number of articles per issue](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/timeline-issue-Le_Matin_interactive.htm) (interactive timeline)
+*Le Matin* : [Average number of articles per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/timeline-issue-Le_Matin_interactive.htm) (interactive timeline)
 
 ##### Illustrations
-[Average number of illustrations for 1,000 pages](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/mean-page.htm)
+[Average number of illustrations for 1,000 pages](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/mean-page.htm)
 
-[Average number of illustrations per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-mean.htm) (timeline)
+[Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-mean.htm) (timeline)
 
-[Average number of illustrations per page per title](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-page.htm) (timeline)
+[Average number of illustrations per page per title](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-page.htm) (timeline)
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/illustrations-JDPL.png)
 
-*Journal des débats politiques et littéraires* : [Number of illustrations per issue](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-illustrations-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
+*Journal des débats politiques et littéraires* : [Number of illustrations per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-illustrations-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
 
 
 ###### Front page
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/illustrations-front.png)
 
-[Average number of front page illustrations](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-front-mean.htm) (timeline)
+[Average number of front page illustrations](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-mean.htm) (timeline)
 
-[Average number of front page illustrations per title](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-front.htm) (timeline)
+[Average number of front page illustrations per title](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front.htm) (timeline)
 
 *Le Petit Journal  illustré* : 
-- [Average number of illustrations on the front page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-front-LPJI_interactive.htm) (interactive timeline)
-- [Number of illustrations on the front page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-front-LPJI_complete_interactive.htm) (complete dataset, interactive timeline)
+- [Average number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-LPJI_interactive.htm) (interactive timeline)
+- [Number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-LPJI_complete_interactive.htm) (complete dataset, interactive timeline)
 
-*Le Petit Parisien* : [Average number of illustrations per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-front-LPP_interactive.htm) (interactive timeline)
+*Le Petit Parisien* : [Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-LPP_interactive.htm) (interactive timeline)
 
-*Ouest-Eclair* : [Number of illustrations on the front page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/timeline-front-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
+*Ouest-Eclair* : [Number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
 
 
 ##### Words
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Words/mean-words.png)
 
-[Average number of words per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Words/mean-page.htm)
+[Average number of words per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/mean-page.htm)
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Words/words-JDPL.png)
 
-*Journal des débats politiques et littéraires* : [Number of words per page](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Words/timeline-words-JDPL_complete_interactive.htm)  (complete dataset, interactive timeline)
+*Journal des débats politiques et littéraires* : [Number of words per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/timeline-words-JDPL_complete_interactive.htm)  (complete dataset, interactive timeline)
 
 
 ##### Tables
-[Average number of tables per issue](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Tables/timeline-issue.htm) (timeline)
+[Average number of tables per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Tables/timeline-issue.htm) (timeline)
 
 
 
 ##### Layout and form factors
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern.png)
 
-[Average number of articles, illustrations and illustrations on front page (per page)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern_press.htm)
+[Average number of articles, illustrations and illustrations on front page (per page)](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/modern_press.htm)
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.png)
 
-[Page format; and words, illustrations, ads density (per page)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.htm)
+[Page format; and words, illustrations, ads density (per page)](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad.htm)
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.png)
 
-[Number of pages; words, illustrations, ads density (per surface)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.htm)
+[Number of pages; words, illustrations, ads density (per surface)](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad-surface.htm)
 
 ##### Content types
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/content.png)
