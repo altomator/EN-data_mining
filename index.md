@@ -66,13 +66,13 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 *Ouest-Eclair (Ed. Nantes)* : [Page format ](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Formats/timeline-format-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
 
 ##### Pages number
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Pages/pages-mean.png)
+![](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/pages-mean.png)
 
-[Average number of pages per issue](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Pages/timeline-mean.htm) (timeline)
+[Average number of pages per issue](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/timeline-mean.htm) (timeline)
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Pages/pages.png)
+![](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/pages.png)
 
-[Average number of pages per issue per title](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Pages/timeline-issue.htm) (timeline)
+[Average number of pages per issue per title](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/timeline-issue.htm) (timeline)
 
 ##### Articles
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/articles.png)
