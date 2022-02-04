@@ -68,10 +68,10 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 ##### Pages number
 ![](http://altomator.github.io/EN-data_mining/Charts/Samples/pages-mean.jpg)
 
-[Average number of pages per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Pages/timeline-mean.htm) (timeline)
+[Average number of pages per issue](http://altomator.github.io/EN-data_mining/Charts/Pages/timeline-mean.htm) (timeline)
 
 
-[Average number of pages per issue per title](http://altomator.github.io/EN-data_mining/Charts/Samples/Pages/timeline-issue.htm) (timeline)
+[Average number of pages per issue per title](http://altomator.github.io/EN-data_mining/Charts/Pages/timeline-issue.htm) (timeline)
 
 ##### Articles
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/articles.png)
