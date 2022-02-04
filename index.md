@@ -74,24 +74,23 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 [Average number of pages per issue per title](http://altomator.github.io/EN-data_mining/Charts/Pages/timeline-issue.htm) (timeline)
 
 ##### Articles
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/articles.png)
 
-[Average number of articles per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/timeline-issue.htm) (timeline)
+[Average number of articles per issue](http://altomator.github.io/EN-data_mining/Charts/Articles/timeline-issue.htm) (timeline)
 
-[Average number of articles per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/timeline-page.htm) (timeline)
+[Average number of articles per page](http://altomator.github.io/EN-data_mining/Charts/Articles/timeline-page.htm) (timeline)
 
-*Le Matin* : [Average number of articles per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/timeline-issue-Le_Matin_interactive.htm) (interactive timeline)
+*Le Matin* : [Average number of articles per issue](http://altomator.github.io/EN-data_mining/Charts/Articles/timeline-issue-Le_Matin_interactive.htm) (interactive timeline)
 
 ##### Illustrations
-[Average number of illustrations for 1,000 pages](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/mean-page.htm)
+[Average number of illustrations for 1,000 pages](http://altomator.github.io/EN-data_mining/Charts/Illustrations/mean-page.htm)
 
-[Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-mean.htm) (timeline)
+[Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/Illustrations/timeline-mean.htm) (timeline)
 
-[Average number of illustrations per page per title](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-page.htm) (timeline)
+[Average number of illustrations per page per title](http://altomator.github.io/EN-data_mining/Charts/Illustrations/timeline-page.htm) (timeline)
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/illustrations-JDPL.png)
+![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/illustrations-JDPL.png)
 
-*Journal des débats politiques et littéraires* : [Number of illustrations per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-illustrations-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
+*Journal des débats politiques et littéraires* : [Number of illustrations per issue](http://altomator.github.io/EN-data_mining/Charts/Illustrations/timeline-illustrations-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
 
 
 ###### Front page
