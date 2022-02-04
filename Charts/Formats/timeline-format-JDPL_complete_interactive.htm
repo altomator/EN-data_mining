@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Page format - JDPL</title>
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -16,7 +16,7 @@ $(function () {
                 zoomType: 'x'
             },
             title: {
-                text: 'Page format - <i>Journal des d�bats politiques et litt�raires</i> (complet dataset) (Europeana Newspaper, BnF)'
+                text: 'Page format - <i>Journal des débats politiques et littéraires</i>, complet dataset (Europeana Newspaper, BnF)'
             },
             subtitle: {
                 text: document.ontouchstart === undefined ?
@@ -62,13 +62,13 @@ $(function () {
             },
             	series: {
             		marker: {
-            			radius: 2,
+            			radius: 1,
             			symbol: 'square',
                 	  fillcolor: '#FFFFFF',
-                	  lineColor: Highcharts.getOptions().colors[3], //null,
-                	  lineWidth: 1},
-                    cursor: 'pointer',
-                    point: {
+                	  //lineColor: Highcharts.getOptions().colors[3], //null,
+                	  lineWidth: 0},
+                  cursor: 'pointer',
+                  point: {
                         events: {
                             click: function () {
                              window.open('http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
