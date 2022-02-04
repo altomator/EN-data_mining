@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Average number of articles per issue - Le Matin</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Average number of  articles per issue - Le Matin'
+        },
+        subtitle: {
+            text: 'Source : Europeana Newspapers/BnF'
+        },
+        xAxis: {
+            type: 'datetime',
+        },
+        yAxis: {
+            title: {
+                text: 'Articles'
+            }
+        },
+        plotOptions: {
+        	series: {
+                    cursor: 'pointer',
+                    point: {
+                        events: {
+                            click: function (e) {
+                                hs.htmlExpand(null, {
+                                    pageOrigin: {
+                                        x: e.pageX || e.clientX,
+                                        y: e.pageY || e.clientY
+                                    },
+                                    headingText: 'See the year issues',
+                                    maincontentText: '<a target=_blank href=http://gallica.bnf.fr/ark:/12148/cb328123058/date' +
+                                    Highcharts.dateFormat('%Y', this.x) + '>'
+                                    + '<small>'+ Highcharts.dateFormat('%Y', this.x) + '</small></a>',
+                                    width: 80
+                                });
+                            }
+                        }
+                    }
+                },
+            line: {
+                dataLabels: {
+                    enabled: false
+                },
+                enableMouseTracking: true
+            }
+        },
+        series: [{
+            name: 'Le Matin',
+            data: [
+            [Date.UTC(1884,0,1),58.8 ],
+[Date.UTC(1885,0,1),58.5],
+[Date.UTC(1886,0,1),61.6],
+[Date.UTC(1887,0,1),62.5],
+[Date.UTC(1888,0,1),55.7],
+[Date.UTC(1889,0,1),61.2],
+[Date.UTC(1890,0,1),66.3],
+[Date.UTC(1891,0,1),72.2],
+[Date.UTC(1892,0,1),77.6],
+[Date.UTC(1893,0,1),72.4],
+[Date.UTC(1894,0,1),70.9],
+[Date.UTC(1895,0,1),77.4],
+[Date.UTC(1896,0,1),75.5],
+[Date.UTC(1897,0,1),80.1],
+[Date.UTC(1898,0,1),70.7],
+[Date.UTC(1899,0,1),70.4],
+[Date.UTC(1900,0,1),83.5],
+[Date.UTC(1901,0,1),85.2],
+[Date.UTC(1902,0,1),81.0],
+[Date.UTC(1903,0,1),82.5],
+[Date.UTC(1904,0,1),80.5],
+[Date.UTC(1905,0,1),87.5],
+[Date.UTC(1906,0,1),85.5],
+[Date.UTC(1907,0,1),83.7],
+[Date.UTC(1908,0,1),85.8],
+[Date.UTC(1909,0,1),86.7],
+[Date.UTC(1910,0,1),90.6],
+[Date.UTC(1911,0,1),97.9],
+[Date.UTC(1912,0,1),103.5],
+[Date.UTC(1913,0,1),102.1],
+[Date.UTC(1914,0,1),80.6],
+[Date.UTC(1915,0,1),71.8],
+[Date.UTC(1916,0,1),66.0],
+[Date.UTC(1917,0,1),56.0],
+[Date.UTC(1918,0,1),54.4],
+[Date.UTC(1919,0,1),49.0],
+[Date.UTC(1920,0,1),59.1],
+[Date.UTC(1921,0,1),73.1],
+[Date.UTC(1922,0,1),98.6],
+[Date.UTC(1923,0,1),105.1],
+[Date.UTC(1924,0,1),106.5],
+[Date.UTC(1925,0,1),110.8],
+[Date.UTC(1926,0,1),112.4],
+[Date.UTC(1927,0,1),114.2],
+[Date.UTC(1928,0,1),115.1],
+[Date.UTC(1929,0,1),116.9],
+[Date.UTC(1930,0,1),125.5],
+[Date.UTC(1931,0,1),120.6],
+[Date.UTC(1932,0,1),131.8],
+[Date.UTC(1933,0,1),139.6],
+[Date.UTC(1934,0,1),137.8],
+[Date.UTC(1935,0,1),155.1],
+[Date.UTC(1936,0,1),151.5],
+[Date.UTC(1937,0,1),153.4],
+[Date.UTC(1938,0,1),147.3],
+[Date.UTC(1939,0,1),130.7],
+[Date.UTC(1940,0,1),73.8],
+[Date.UTC(1941,0,1),82.2],
+[Date.UTC(1942,0,1),61.6]
+ ]
+        },  ]
+    });
+});
+		</script>
+	</head>
+	<body>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+		<script src="https://code.highcharts.com/themes/sand-signika.js"></script>
+
+<!-- Additional files for the Highslide popup effect
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="http://www.highcharts.com/joomla/media/com_demo/highslide.css" />
+-->
+
+<div id="container" style="min-width: 310px; height: 600px; margin: 0 auto"></div>
+
+	</body>
+</html>
