@@ -63,7 +63,7 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 ##### Page dimensions
 *Journal des débats politiques et littéraires* : [Page format ](http://altomator.github.io/EN-data_mining/Charts/Formats/timeline-format-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
 
-*Ouest-Eclair (Ed. Nantes)* : [Page format ](http://altomator.github.io/EN-data_mining/EN-data_mining/Charts/Formats/timeline-format-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
+*Ouest-Eclair (Ed. Nantes)* : [Page format ](http://altomator.github.io/EN-data_mining/Charts/Formats/timeline-format-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
 
 ##### Pages number
 ![](https://raw.githubusercontent.com/altomator/EN-data_mining/master/Charts/Samples/Pages/pages-mean.png)
