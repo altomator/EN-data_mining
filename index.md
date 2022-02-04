@@ -66,7 +66,7 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 *Ouest-Eclair (Ed. Nantes)* : [Page format ](http://altomator.github.io/EN-data_mining/Charts/Formats/timeline-format-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
 
 ##### Pages number
-![](http://altomator.github.io/EN-data_mining/Charts//Samples/pages-mean.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/pages-mean.jpg)
 
 [Average number of pages per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Pages/timeline-mean.htm) (timeline)
 
