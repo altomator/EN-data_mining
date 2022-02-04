@@ -39,22 +39,12 @@ $(function () {
             	series: {
                     cursor: 'pointer',
                     point: {
-
-                        events: {
-                            click: function (e) {
-                                hs.htmlExpand(null, {
-                                    pageOrigin: {
-                                        x: e.pageX || e.clientX,
-                                        y: e.pageY || e.clientY
-                                    },
-                                    headingText: 'See the issue',
-                                    maincontentText: '<a target=_blank href=http://gallica.bnf.fr/ark:/12148/cb41193663x/date' +
-                                    Highcharts.dateFormat('%Y%m%d', this.x) + '>'
-                                    + '<small>'+ Highcharts.dateFormat('%Y/%m/%d', this.x) + '</small></a>',
-                                    width: 80
-                                });
-                            }
-                        }
+											events: {
+													click: function () {
+													 window.open('http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
+													 Highcharts.dateFormat('%Y%m%d', this.x), '_blank');
+												}
+											}
                     }
                 },
                 area: {
@@ -9486,12 +9476,12 @@ $(function () {
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="../js/themes/EN.js"></script>
 
-<!-- Additional files for the Highslide popup effect
-<script src="https://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
 
-<script src="../js/highslide.config.js" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="../js/highslide.css" />
--->
+<!-- Additional files for the Highslide popup effect
+<script src="../highslide/highslide-full.min.js"></script>
+<script src="../highslide/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="../highslide/highslide.css" />-->
+
 
 <div id="container" style="min-width: 1200px; height: 400px; margin: 0 auto"></div>
 

@@ -10,7 +10,6 @@ ${demo.css}
 		</style>
 		<script type="text/javascript">
 $(function () {
-
         $('#container').highcharts({
             chart: {
                 type: 'scatter',
@@ -36,12 +35,9 @@ $(function () {
                 enabled: false
             },
             plotOptions: {
-
             	scatter: {
 
                 marker: {
-
-
                     states: {
                         hover: {
                             enabled: true,
@@ -52,17 +48,16 @@ $(function () {
                states: {
                     hover: {
                         marker: {
-                            enabled: false
+                            enabled: true
                         }
                     }
                 },
-
-
                tooltip: {
-                    shared: true,
+                    shared: false,
+										split: true,
                 crosshairs: true,
                 headerFormat: '<b>{series.name}</b> : ',
-                    pointFormat: '{point.y} '
+                pointFormat: '{point.y}'
                 }
             },
             	series: {
@@ -72,28 +67,16 @@ $(function () {
                 	  fillcolor: '#FFFFFF',
                 	  lineColor: Highcharts.getOptions().colors[3], //null,
                 	  lineWidth: 1},
-
                     cursor: 'pointer',
                     point: {
-
                         events: {
-                            click: function (e) {
-                                hs.htmlExpand(null, {
-                                    pageOrigin: {
-                                        x: e.pageX || e.clientX,
-                                        y: e.pageY || e.clientY
-                                    },
-                                    headingText: 'See the issue',
-                                    maincontentText: '<a target=_blank href=http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
-                                    Highcharts.dateFormat('%Y%m%d', this.x) + '>'
-                                    + '<small>'+ Highcharts.dateFormat('%Y/%m/%d', this.x) + '</small></a>',
-                                    width: 80
-                                });
-                            }
+                            click: function () {
+                             window.open('http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
+														 Highcharts.dateFormat('%Y%m%d', this.x), '_blank');
+                          }
                         }
                     }
                 },
-
             },
 
             series: [{
@@ -45450,9 +45433,9 @@ $(function () {
 <script src="../js/themes/EN.js"></script>
 
 <!-- Additional files for the Highslide popup effect
-<script src="https://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
-<script src="https://www.highcharts.com/joomla/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="https://www.highcharts.com/joomla/media/com_demo/highslide.css" />
+<script src="../highslide/highslide-full.min.js"></script>
+<script src="../highslide/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="../highslide/highslide.css" />
 -->
 
 <div id="container" style="min-width: 1200px; height: 400px; margin: 0 auto"></div>
