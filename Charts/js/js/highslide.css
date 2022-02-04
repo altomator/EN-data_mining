@@ -1,0 +1,36 @@
+
+/* hs.wrapperClassName = 'draggable-header' */
+
+.highslide-container div {
+	font-family: Verdana, Helvetica;
+	font-size: 8pt;
+	background-color: #121621;
+	border-width: 0;
+}
+
+.draggable-header .highslide-header {
+	height: 16px;
+	border-width: 0;
+}
+.draggable-header .highslide-heading {
+	position: absolute;
+	margin: 1px 0.8em;
+}
+
+
+.draggable-header .highslide-maincontent {
+	padding-top: 0em;
+}
+.draggable-header  a {
+	color: gray;
+	text-decoration:none;
+}
+
+.highslide-footer .highslide-resize {
+	display: none;
+
+}
+
+.highslide-header .highslide-close  {
+	display: none;
+}
