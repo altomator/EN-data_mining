@@ -3,7 +3,7 @@
  * @author Torstein Honsi
  */
 
- 
+
 
 
 // Load the fonts
@@ -41,8 +41,7 @@ Highcharts.theme = {
 	},
 	tooltip: {
 		style: {
-			color: 'rgba(250, 250, 250, 0.5)',
-
+			color: 'gray' ,
 		 fontSize: '10px',
 	},
 		borderWidth: 0,
