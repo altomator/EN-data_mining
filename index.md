@@ -82,11 +82,11 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 *Le Matin* : [Average number of articles per issue](http://altomator.github.io/EN-data_mining/Charts/Articles/timeline-issue-Le_Matin_interactive.htm) (interactive timeline)
 
 ##### Illustrations
-[Average number of illustrations for 1,000 pages](http://altomator.github.io/EN-data_mining/Charts/Illustrations/mean-page.htm)
+[Average number of illustrations for 1,000 pages](http://altomator.github.io/EN-data_mining/Charts/illustrations/mean-page.htm)
 
-[Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/Illustrations/timeline-mean.htm) (timeline)
+[Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/illustrations/timeline-mean.htm) (timeline)
 
-[Average number of illustrations per page per title](http://altomator.github.io/EN-data_mining/Charts/Illustrations/timeline-page.htm) (timeline)
+[Average number of illustrations per page per title](http://altomator.github.io/EN-data_mining/Charts/illustrations/timeline-page.htm) (timeline)
 
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/illustrations-JDPL.jpg)
 
