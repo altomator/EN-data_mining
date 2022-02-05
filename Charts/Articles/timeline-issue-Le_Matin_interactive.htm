@@ -34,17 +34,8 @@ $(function () {
                     point: {
                         events: {
                             click: function (e) {
-                                hs.htmlExpand(null, {
-                                    pageOrigin: {
-                                        x: e.pageX || e.clientX,
-                                        y: e.pageY || e.clientY
-                                    },
-                                    headingText: 'See the year issues',
-                                    maincontentText: '<a target=_blank href=http://gallica.bnf.fr/ark:/12148/cb328123058/date' +
-                                    Highcharts.dateFormat('%Y', this.x) + '>'
-                                    + '<small>'+ Highcharts.dateFormat('%Y', this.x) + '</small></a>',
-                                    width: 80
-                                });
+															window.open('http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
+															Highcharts.dateFormat('%Y%m%d', this.x), '_blank');
                             }
                         }
                     }
