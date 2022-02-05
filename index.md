@@ -88,7 +88,7 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 [Average number of illustrations per page per title](http://altomator.github.io/EN-data_mining/Charts/Illustrations/timeline-page.htm) (timeline)
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/illustrations-JDPL.png)
+![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/illustrations-JDPL.jpg)
 
 *Journal des débats politiques et littéraires* : [Number of illustrations per issue](http://altomator.github.io/EN-data_mining/Charts/Illustrations/timeline-illustrations-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
 
