@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8=">
+		<title>Censored issues (1914-1918) - Journal des D&eacute;bats</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'scatter',
+            zoomType: 'x'
+        },
+        title: {
+            text: 'Censored issues (1915) - Journal des débats politiques et littéraires (Europeana Newspaper, BnF)'
+        },
+         subtitle: {
+                text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+            },
+        xAxis: {
+            type: 'datetime',
+        },
+        yAxis: {
+           max:1.5,
+           showFirstLabel: false,
+           showLastLabel: false,
+            type: 'category',
+           allowDecimals: false,
+           gridLineColor: 'white',
+           title: {
+                text: 'Issue'
+            }
+        },
+        legend: { enabled: true
+        },
+
+        plotOptions: {
+        column: {
+                grouping: false,
+                shadow: false,
+                borderWidth: 1,
+                borderRadius: 1,
+                animation: false
+            },
+        	series: {
+                    cursor: 'pointer',
+                    point: {
+
+                        events: {
+                            click: function (e) {
+															window.open('http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
+															Highcharts.dateFormat('%Y%m%d', this.x), '_blank');
+                            }
+                        }
+                    }
+                },
+
+
+           scatter: {
+                marker: {
+                    radius: 8,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+               states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+
+
+               tooltip: {
+                    shared: true,
+                crosshairs: true,
+                headerFormat: '<b>{series.name}</b> : ',
+                    pointFormat: '1'
+                }
+            }
+        },
+        series: [
+{
+            name:  'BaseX',
+            color: 'rgba(126,86,134,0.7)',
+            pointPadding: 0.1,
+            shadow: false,
+            data: [
+
+ [Date.UTC(1915,0,01),1.5],
+  [Date.UTC(1915,0,02),1.5],
+  [Date.UTC(1915,0,06),1.5],
+  [Date.UTC(1915,0,15),1.5],
+  [Date.UTC(1915,0,17),1.5],
+  [Date.UTC(1915,0,31),1.5],
+  [Date.UTC(1915,01,08),1.5],
+  [Date.UTC(1915,01,24),1.5],
+  [Date.UTC(1915,02,05),1.5],
+  [Date.UTC(1915,02,11),1.5],
+  [Date.UTC(1915,03,12),1.5],
+  [Date.UTC(1915,03,19),1.5],
+  [Date.UTC(1915,03,29),1.5],
+  [Date.UTC(1915,04,16),1.5],
+  [Date.UTC(1915,05,19),1.5],
+  [Date.UTC(1915,05,25),1.5],
+  [Date.UTC(1915,05,29),1.5],
+  [Date.UTC(1915,06,02),1.5],
+  [Date.UTC(1915,06,05),1.5],
+  [Date.UTC(1915,06,06),1.5],
+  [Date.UTC(1915,06,17),1.5],
+  [Date.UTC(1915,07,01),1.5],
+  [Date.UTC(1915,07,10),1.5],
+  [Date.UTC(1915,07,27),1.5],
+  [Date.UTC(1915,08,23),1.5],
+  [Date.UTC(1915,08,24),1.5],
+  [Date.UTC(1915,08,26),1.5],
+  [Date.UTC(1915,10,02),1.5],
+  [Date.UTC(1915,10,26),1.5],
+  [Date.UTC(1915,11,14),1.5],
+  [Date.UTC(1915,11,29),1.5]
+]
+},
+        {
+            name:  'Ground truth ',
+            color: 'rgba(100, 100, 100, .5)',
+
+            data: [
+
+[Date.UTC(1915,0,1),1],
+[Date.UTC(1915,0,6),1],
+[Date.UTC(1915,0,17),1],
+[Date.UTC(1915,0,19),1],
+[Date.UTC(1915,1,8),1],
+[Date.UTC(1915,2,2),1],
+[Date.UTC(1915,2,5),1],
+[Date.UTC(1915,2,10),1],
+[Date.UTC(1915,2,11),1],
+[Date.UTC(1915,2,22),1],
+[Date.UTC(1915,2,31),1],
+[Date.UTC(1915,3,7),1],
+[Date.UTC(1915,3,12),1],
+[Date.UTC(1915,3,15),1],
+[Date.UTC(1915,3,19),1],
+[Date.UTC(1915,3,29),1],
+[Date.UTC(1915,4,1),1],
+[Date.UTC(1915,4,6),1],
+[Date.UTC(1915,4,14),1],
+[Date.UTC(1915,4,15),1],
+[Date.UTC(1915,4,16),1],
+[Date.UTC(1915,4,17),1],
+[Date.UTC(1915,5,19),1],
+[Date.UTC(1915,5,20),1],
+[Date.UTC(1915,5,21),1],
+[Date.UTC(1915,5,29),1],
+[Date.UTC(1915,6,2),1],
+[Date.UTC(1915,6,5),1],
+[Date.UTC(1915,6,6),1],
+[Date.UTC(1915,6,12),1],
+[Date.UTC(1915,7,15),1],
+[Date.UTC(1915,7,21),1],
+[Date.UTC(1915,8,2),1],
+[Date.UTC(1915,8,4),1],
+[Date.UTC(1915,8,23),1],
+[Date.UTC(1915,8,24),1],
+[Date.UTC(1915,8,26),1],
+[Date.UTC(1915,8,27),1],
+[Date.UTC(1915,9,7),1],
+[Date.UTC(1915,9,9),1],
+[Date.UTC(1915,9,28),1],
+[Date.UTC(1915,9,31),1],
+[Date.UTC(1915,10,26),1],
+[Date.UTC(1915,11,8),1],
+[Date.UTC(1915,11,11),1],
+[Date.UTC(1915,11,13),1],
+[Date.UTC(1915,11,29),1]
+            ]
+
+        } ]
+    });
+});
+
+
+		</script>
+	</head>
+	<body>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+		<script src="https://code.highcharts.com/themes/sand-signika.js"></script>
+
+
+<div id="container" style="min-width: 1400px; height: 300px;  margin: 0 auto"></div>
+
+	</body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/censure-JDPL-1916.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title>Censored issues (1916) - Journal des Débats</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'scatter',
+            zoomType: 'x'
+        },
+        title: {
+            text: 'Censored issues (1916 - bataille de Verdun) - Journal des débats politiques et littéraires (Europeana Newspaper, BnF)'
+        },
+         subtitle: {
+                text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+            },
+        xAxis: {
+            type: 'datetime',
+        },
+        yAxis: {
+           max:2,
+           showFirstLabel: false,
+           showLabels: false,
+           showLastLabel: false,
+
+            type: 'category',
+           allowDecimals: false,
+           gridLineColor: 'white',
+           title: {
+                text: 'Censored issues'
+            }
+        },
+        legend: { enabled: true
+        },
+
+        plotOptions: {
+        column: {
+                grouping: false,
+                shadow: true,
+                borderWidth: 1,
+                borderRadius: 1,
+                animation: false
+            },
+        	series: {
+                    cursor: 'pointer',
+                    point: {
+
+                        events: {
+                            click: function (e) {
+															window.open('http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
+															Highcharts.dateFormat('%Y%m%d', this.x), '_blank');
+                            }
+                        }
+                    }
+                },
+
+
+           scatter: {
+                marker: {
+                    radius: 8,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+               states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+
+
+               tooltip: {
+                    shared: true,
+                crosshairs: true,
+                headerFormat: '<b>{series.name}</b>',
+                    pointFormat: ''
+                }
+            }
+        },
+        series: [
+{
+            name:  'Front page',
+            color: 'rgba(126,86,134,0.7)',
+            pointPadding: 0.1,
+            shadow: false,
+            data: [
+  [Date.UTC(1916,1,17),0.5],
+  [Date.UTC(1916,1,20),0.5],
+  [Date.UTC(1916,1,21),0.5],
+
+
+  [Date.UTC(1916,4,05),0.5],
+  [Date.UTC(1916,4,12),0.5],
+   [Date.UTC(1916,4,24),0.5],
+  [Date.UTC(1916,4,31),0.5],
+  [Date.UTC(1916,5,04),0.5],
+
+  [Date.UTC(1916,5,13),0.5],
+  [Date.UTC(1916,5,18),0.5],
+  [Date.UTC(1916,6,03),0.5],
+  [Date.UTC(1916,6,08),0.5],
+  [Date.UTC(1916,6,21),0.5],
+  [Date.UTC(1916,6,22),0.5],
+  [Date.UTC(1916,6,23),0.5],
+
+   [Date.UTC(1916,7,02),0.5],
+  [Date.UTC(1916,7,26),0.5],
+
+  [Date.UTC(1916,8,09),0.5],
+
+  [Date.UTC(1916,8,12),0.5],
+  [Date.UTC(1916,8,14),0.5],
+  [Date.UTC(1916,8,20),0.5],
+  [Date.UTC(1916,8,26),0.5],
+  [Date.UTC(1916,8,29),0.5],
+  [Date.UTC(1916,9,01),0.5],
+  [Date.UTC(1916,9,06),0.5],
+  [Date.UTC(1916,9,13),0.5],
+  [Date.UTC(1916,9,30),0.5],
+  [Date.UTC(1916,10,02),0.5],
+   [Date.UTC(1916,10,04),0.5],
+    [Date.UTC(1916,10,06),0.5],
+   [Date.UTC(1916,10,09),0.5],
+  [Date.UTC(1916,10,15),0.5],
+   [Date.UTC(1916,10,16),0.5],
+  [Date.UTC(1916,10,17),0.5],
+  [Date.UTC(1916,10,28),0.5],
+  [Date.UTC(1916,10,30),0.5],
+  [Date.UTC(1916,11,02),0.5],
+  [Date.UTC(1916,11,06),0.5],
+  [Date.UTC(1916,11,07),0.5],
+  [Date.UTC(1916,11,13),0.5],
+
+  [Date.UTC(1916,11,22),0.5],
+  [Date.UTC(1916,11,28),1.5]
+]
+},
+        {
+            name:  'Page 2',
+            color: 'rgba(100, 100, 100, .5)',
+
+            data: [
+
+
+  [Date.UTC(1916,1,23),1],
+  [Date.UTC(1916,2,06),1],
+  [Date.UTC(1916,2,10),1],
+
+  [Date.UTC(1916,2,12),1],
+
+  [Date.UTC(1916,2,27),1],
+
+  [Date.UTC(1916,3,08),1],
+  [Date.UTC(1916,3,17),1],
+
+  [Date.UTC(1916,3,27),1],
+  [Date.UTC(1916,4,01),1],
+  [Date.UTC(1916,4,03),1],
+
+
+
+  [Date.UTC(1916,5,29),1],
+
+
+  [Date.UTC(1916,6,13),1],
+  [Date.UTC(1916,6,18),1],
+  [Date.UTC(1916,6,22),1],
+
+
+  [Date.UTC(1916,7,14),1],
+
+  [Date.UTC(1916,7,28),1],
+  [Date.UTC(1916,8,03),1],
+
+  [Date.UTC(1916,8,11),1],
+  [Date.UTC(1916,8,12),1],
+  [Date.UTC(1916,8,14),1],
+
+
+  [Date.UTC(1916,8,25),1],
+  [Date.UTC(1916,8,28),1],
+ [Date.UTC(1916,9,10),1],
+
+  [Date.UTC(1916,9,11),1],
+  [Date.UTC(1916,9,12),1],
+  [Date.UTC(1916,9,17),1],
+[Date.UTC(1916,9,27),1],
+
+
+  [Date.UTC(1916,10,15),1],
+
+
+  [Date.UTC(1916,11,04),1],
+[Date.UTC(1916,11,07),1],
+  [Date.UTC(1916,11,15),1],
+
+  [Date.UTC(1916,11,22),1],
+ [Date.UTC(1916,11,26),1],
+  [Date.UTC(1916,11,28),1]
+  ]
+},
+
+	{
+            name:  'Page 3',
+            color: 'rgba(50, 50, 120, .5)',
+
+            data: [
+
+
+  [Date.UTC(1916,2,16),1.5],
+  [Date.UTC(1916,2,19),1.5],
+
+
+
+  [Date.UTC(1916,4,09),1.5],
+  [Date.UTC(1916,4,11),1.5],
+  [Date.UTC(1916,4,12),1.5],
+
+  [Date.UTC(1916,4,23),1.5],
+
+
+
+  [Date.UTC(1916,5,02),1.5],
+  [Date.UTC(1916,5,07),1.5],
+
+
+  [Date.UTC(1916,5,27),1.5],
+
+  [Date.UTC(1916,6,01),1.5],
+  [Date.UTC(1916,6,05),1.5],
+  [Date.UTC(1916,6,06),1.5],
+  [Date.UTC(1916,6,08),1.5],
+
+
+  [Date.UTC(1916,7,20),1.5],
+
+
+
+  [Date.UTC(1916,8,27),1.5],
+
+  [Date.UTC(1916,9,01),1.5],
+
+  [Date.UTC(1916,9,11),1.5],
+
+  [Date.UTC(1916,9,13),1.5],
+
+
+
+
+  [Date.UTC(1916,9,28),1.5],
+
+
+  [Date.UTC(1916,10,05),1.5],
+
+
+
+  [Date.UTC(1916,11,26),1.5],
+  [Date.UTC(1916,11,28),1.5]
+          ]},
+          {
+            name:  'Page 4',
+            color: 'rgba(150, 50, 100, .5)',
+
+            data: [
+
+
+
+  [Date.UTC(1916,1,24),2],
+
+  [Date.UTC(1916,2,05),2],
+
+
+
+  [Date.UTC(1916,2,28),2],
+
+  [Date.UTC(1916,3,02),2],
+
+
+  [Date.UTC(1916,3,14),2],
+
+ [Date.UTC(1916,3,20),2],
+
+  [Date.UTC(1916,3,30),2],
+
+
+  [Date.UTC(1916,4,10),2],
+
+  [Date.UTC(1916,4,14),2],
+  [Date.UTC(1916,4,17),2],
+
+  [Date.UTC(1916,4,24),2],
+
+  [Date.UTC(1916,4,28),2],
+  [Date.UTC(1916,5,04),2],
+  [Date.UTC(1916,5,09),2],
+
+
+
+  [Date.UTC(1916,5,18),2],
+
+  [Date.UTC(1916,5,22),2],
+  [Date.UTC(1916,5,23),2],
+
+  [Date.UTC(1916,5,26),2],
+
+
+
+  [Date.UTC(1916,6,05),2],
+
+
+
+  [Date.UTC(1916,6,17),2],
+
+
+
+
+  [Date.UTC(1916,6,29),2],
+  [Date.UTC(1916,6,30),2],
+
+
+  [Date.UTC(1916,7,04),2],
+
+
+  [Date.UTC(1916,7,12),2],
+
+
+
+
+  [Date.UTC(1916,7,25),2],
+  [Date.UTC(1916,7,28),2],
+
+
+
+
+
+  [Date.UTC(1916,8,14),2],
+
+
+
+
+  [Date.UTC(1916,8,26),2],
+
+
+
+  [Date.UTC(1916,9,01),2],
+
+
+
+
+  [Date.UTC(1916,9,30),2],
+
+
+  [Date.UTC(1916,10,03),2],
+
+  [Date.UTC(1916,10,05),2],
+  [Date.UTC(1916,10,06),2],
+  [Date.UTC(1916,10,07),2],
+
+
+
+
+  [Date.UTC(1916,11,01),2],
+
+
+
+
+  [Date.UTC(1916,11,07),2],
+
+
+
+  [Date.UTC(1916,11,22),2],
+
+
+
+
+
+          ]}
+
+ ],
+
+    });
+});
+
+
+		</script>
+	<body>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+		<script src="https://code.highcharts.com/themes/sand-signika.js"></script>
+
+
+<div id="container" style="min-width: 1400px; height: 300px;  margin: 0 auto" >
+
+
+</div>
+
+
+
+</body></html>
