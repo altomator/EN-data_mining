@@ -88,7 +88,7 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 [Average number of illustrations per page per title](http://altomator.github.io/EN-data_mining/Charts/illustrations/timeline-page.htm) (timeline)
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/illustrations-JDPL.jpg)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations-JDPL.jpg)
 
 *Journal des débats politiques et littéraires* : [Number of illustrations per issue](http://altomator.github.io/EN-data_mining/Charts/illustrations/timeline-illustrations-JDPL_complete_interactive.htm) (complete dataset, interactive timeline)
 
@@ -111,11 +111,11 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 
 ##### Words
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Words/mean-words.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/mean-words.png)
 
 [Average number of words per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/mean-page.htm)
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Words/words-JDPL.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/words-JDPL.png)
 
 *Journal des débats politiques et littéraires* : [Number of words per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/timeline-words-JDPL_complete_interactive.htm)  (complete dataset, interactive timeline)
 
@@ -126,15 +126,15 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 
 ##### Layout and form factors
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Articles/modern.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/modern.png)
 
 [Average number of articles, illustrations and illustrations on front page (per page)](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/modern_press.htm)
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad.png)
 
 [Page format; and words, illustrations, ads density (per page)](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad.htm)
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/FormFactors/page-article-illus-ad-surface.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad-surface.png)
 
 [Number of pages; words, illustrations, ads density (per surface)](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad-surface.htm)
 
@@ -155,15 +155,15 @@ Average number of blocks per issue (timeline):
 
 Issues per year:
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/DataQuality/Issues_year.png)
 
-[*Whole dataset*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/Issues_year.htm)
+[*Whole dataset*](http://altomator.github.io/EN-data_mining/Charts/Samples/DataQuality/Issues_year.htm)
 
 Missing issues:
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/DataQuality/calendar.png)
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/DataQuality/calendar.png)
 
-[*Journal des débats politiques et littéraires*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Missing/JDPL.htm) (calendar)
+[*Journal des débats politiques et littéraires*](http://altomator.github.io/EN-data_mining/Charts/Samples/Missing/JDPL.htm) (calendar)
 
 
 
