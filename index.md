@@ -95,19 +95,19 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 ###### Front page
 
-[Average number of front page illustrations](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-mean.htm) (timeline)
+[Average number of front page illustrations](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations/timeline-front-mean.htm) (timeline)
 
-[Average number of front page illustrations per title](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front.htm) (timeline)
+[Average number of front page illustrations per title](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations/timeline-front.htm) (timeline)
 
 ![](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations-front-LPJI.jpg)
 
 *Le Petit Journal  illustré* : 
-- [Average number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-LPJI_interactive.htm) (interactive timeline)
-- [Number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-LPJI_complete_interactive.htm) (complete dataset, interactive timeline)
+- [Average number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations/timeline-front-LPJI_interactive.htm) (interactive timeline)
+- [Number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations/timeline-front-LPJI_complete_interactive.htm) (complete dataset, interactive timeline)
 
-*Le Petit Parisien* : [Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-LPP_interactive.htm) (interactive timeline)
+*Le Petit Parisien* : [Average number of illustrations per page](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations/timeline-front-LPP_interactive.htm) (interactive timeline)
 
-*Ouest-Eclair* : [Number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
+*Ouest-Eclair* : [Number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations/timeline-front-Ouest-Eclair_complete_interactive.htm) (complete dataset, interactive timeline)
 
 
 ##### Words
