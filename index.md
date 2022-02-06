@@ -95,11 +95,11 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 ###### Front page
 
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Illustrations/illustrations-front.png)
-
 [Average number of front page illustrations](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-mean.htm) (timeline)
 
 [Average number of front page illustrations per title](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front.htm) (timeline)
+
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/illustrations-front-LPJI.jpg)
 
 *Le Petit Journal  illustré* : 
 - [Average number of illustrations on the front page](http://altomator.github.io/EN-data_mining/Charts/Samples/Illustrations/timeline-front-LPJI_interactive.htm) (interactive timeline)
