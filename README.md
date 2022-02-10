@@ -8,6 +8,8 @@ From each digital document is derived a set of bibliographical metadata (date of
 
 [Detailled presentation](http://altomator.github.io/EN-data_mining/)
 
+---
+ 
 ### Installation
 You can use a XSLT stylesheet (called with DOS scripts) or a Perl script (faster).
 
@@ -55,9 +57,16 @@ For each document, metadata are stored in the STATS folder (available formats : 
 
 
 ### Charts
-See on [Github](https://github.com/altomator/EN-data_mining/tree/master/Charts) and [here](http://altomator.github.io/EN-data_mining/).
+
+See [here](http://altomator.github.io/EN-data_mining/).
 
 (Made with [Highcharts](www.highcharts.com))
+
+![](http://altomator.github.io/EN-data_mining/Charts/Samples/words-JDPL.jpg)
+
+*Journal des débats politiques et littéraires* : [Number of words per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/timeline-words-JDPL_complete_interactive.htm)  (complete dataset, interactive timeline)
+
+
 
 ### Datasets
 The complete set of derived data contains about 5,500,000 atomic metadata from six national and regional French newspapers (1814-1945, 880,000 pages, 150,000 issues) of Gallica (www.gallica.fr) press collections:
