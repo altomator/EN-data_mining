@@ -136,7 +136,6 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 [Number of pages; words, illustrations, ads density (per surface)](http://altomator.github.io/EN-data_mining/Charts/FormFactors/page-article-illus-ad-surface.htm)
 
 ##### Content types
-![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/content.png)
 
 Average number of blocks per issue (timeline):
 
