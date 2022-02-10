@@ -6,6 +6,7 @@ The BaseX XML database and XQuery language are then used to search the datasets 
 
 ![](https://altomator.files.wordpress.com/2016/01/3.png)
 
+---
 
 ### Articles, blogs
 - ["Mining, Visualising and Analysing Historical Newspaper Data: the French National Library Experience"](http://www.euklides.fr/blog/altomator/EN-DM/presentation_bxl_en.pdf) (presentation). Digital Approach towards serial publications, Ghent Centre for Digital Humanities (GhentCDH) (Bruxelles, September 2017)
@@ -120,22 +121,22 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 
 ##### Tables
-[Average number of tables per issue](http://altomator.github.io/EN-data_mining/Charts/Samples/Tables/timeline-issue.htm) (timeline)
+[Average number of tables per issue](http://altomator.github.io/EN-data_mining/Charts/Tables/timeline-issue.htm) (timeline)
 
 
 
 ##### Layout and form factors
 ![](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/modern.png)
 
-[Average number of articles, illustrations and illustrations on front page (per page)](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/modern_press.htm)
+[Average number of articles, illustrations and illustrations on front page (per page)](http://altomator.github.io/EN-data_mining/Charts/Articles/modern_press.htm)
 
 ![](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad.png)
 
-[Page format; and words, illustrations, ads density (per page)](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad.htm)
+[Page format; and words, illustrations, ads density (per page)](http://altomator.github.io/EN-data_mining/Charts/FormFactors/page-article-illus-ad.htm)
 
 ![](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad-surface.png)
 
-[Number of pages; words, illustrations, ads density (per surface)](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad-surface.htm)
+[Number of pages; words, illustrations, ads density (per surface)](http://altomator.github.io/EN-data_mining/Charts/FormFactors/page-article-illus-ad-surface.htm)
 
 ##### Content types
 ![](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/content.png)
