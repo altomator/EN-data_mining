@@ -126,15 +126,12 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 
 ##### Layout and form factors
-![](http://altomator.github.io/EN-data_mining/Charts/Samples/Articles/modern.png)
 
 [Average number of articles, illustrations and illustrations on front page (per page)](http://altomator.github.io/EN-data_mining/Charts/Articles/modern_press.htm)
 
-![](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad.png)
 
 [Page format; and words, illustrations, ads density (per page)](http://altomator.github.io/EN-data_mining/Charts/FormFactors/page-article-illus-ad.htm)
 
-![](http://altomator.github.io/EN-data_mining/Charts/Samples/FormFactors/page-article-illus-ad-surface.png)
 
 [Number of pages; words, illustrations, ads density (per surface)](http://altomator.github.io/EN-data_mining/Charts/FormFactors/page-article-illus-ad-surface.htm)
 
@@ -143,12 +140,12 @@ Made with [Highcharts](www.highcharts.com) and Google Charts.
 
 Average number of blocks per issue (timeline):
 
-- [*Le Matin*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/Le_Matin.htm) 
-- [*Le Gaulois*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/Le_Gaulois.htm) 
-- [*Le Petit journal illustré*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/PJI.htm) 
-- [*Le Journal des débats politiques et littéraires*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/JDPL.htm)
-- [*Le Petit Parisien*](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/Petit_Parisien.htm) 
-- [*L'Ouest-Eclair* (Rennes)](http://www.euklides.fr/blog/altomator/EN-DM/Charts/Samples/Content/Ouest_Eclair.htm) 
+- [*Le Matin*](http://altomator.github.io/EN-data_mining/Charts/Content/Le_Matin.htm) 
+- [*Le Gaulois*](http://altomator.github.io/EN-data_mining/Charts/Content/Le_Gaulois.htm) 
+- [*Le Petit journal illustré*](http://altomator.github.io/EN-data_mining/Charts/Samples/Content/PJI.htm) 
+- [*Le Journal des débats politiques et littéraires*](http://altomator.github.io/EN-data_mining/Charts/Samples/Content/JDPL.htm)
+- [*Le Petit Parisien*](http://altomator.github.io/EN-data_mining/Charts/Content/Petit_Parisien.htm) 
+- [*L'Ouest-Eclair* (Rennes)](http://altomator.github.io/EN-data_mining/Charts/Content/Ouest_Eclair.htm) 
 
 
 ##### Data Quality
