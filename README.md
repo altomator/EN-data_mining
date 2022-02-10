@@ -64,7 +64,7 @@ See [here](http://altomator.github.io/EN-data_mining/).
 
 ![](http://altomator.github.io/EN-data_mining/Charts/Samples/words-JDPL.jpg)
 
-*Journal des débats politiques et littéraires* : [Number of words per page](http://altomator.github.io/EN-data_mining/Charts/Samples/Words/timeline-words-JDPL_complete_interactive.htm)  (complete dataset, interactive timeline)
+*Journal des débats politiques et littéraires* : [Number of words per page](http://altomator.github.io/EN-data_mining/Charts/Words/timeline-words-JDPL_complete_interactive.htm)  (complete dataset, interactive timeline)
 
 
 
