@@ -26,34 +26,34 @@ $(function () {
         yAxis: [
       { // premier axe
             labels: {
-                
-               style: {   color:  Highcharts.getOptions().colors[0]    }      
-            },        
+
+               style: {   color:  Highcharts.getOptions().colors[0]    }
+            },
             title: {
-                style: {   color: Highcharts.getOptions().colors[0]    },      
+                style: {   color: Highcharts.getOptions().colors[0]    },
                text: 'number of issues per year'
             }
-        },  
+        },
        { // axe 2
             labels: {
                 formatter: function() {
                    return this.value ;
                },
-               style: {   color: Highcharts.getOptions().colors[1]      }      
-            },         
+               style: {   color: Highcharts.getOptions().colors[1]      }
+            },
 			title: {
-			     style: {   color: Highcharts.getOptions().colors[1]      }    ,  
+			     style: {   color: Highcharts.getOptions().colors[1]      }    ,
                 text: 'active newspapers titles'
             }, opposite: true
-        }], 
-        
+        }],
+
         tooltip: {
             shared: true
         },
 
         plotOptions: {
-            series: {           
-                  marker: {                   
+            series: {
+                  marker: {
                       enabled: false          }},
             line: {
                 dataLabels: {
@@ -62,7 +62,7 @@ $(function () {
                 enableMouseTracking: true
             }
         },
-        series: [     
+        series: [
      {
             name: 'dataset issues per year',
             color: Highcharts.getOptions().colors[0],
@@ -205,8 +205,8 @@ null,
 966,
 614,
 384,
-null 
-  ]          
+null
+  ]
         },
    {
             name: 'active serial titles (periodicity < month)',
@@ -354,8 +354,8 @@ null
 
 
 
- 
-]          
+
+]
         }
  ]
     });
@@ -363,9 +363,9 @@ null
 		</script>
 	</head>
 	<body>
-<script src="../../js/highcharts.js"></script>
-<script src="../../js/modules/exporting.js"></script>
-<script src="../../js/themes/sand-EN.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+			<script src="https://code.highcharts.com/themes/sand-signika.js"></script>
 
 <div id="container" style="min-width: 1000px; height: 800px; margin: 0 auto"></div>
 
