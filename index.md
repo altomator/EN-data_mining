@@ -155,8 +155,6 @@ Issues per year:
 
 Missing issues:
 
-![](http://altomator.github.io/EN-data_mining/Charts/DataQuality/calendar.png)
-
 [*Journal des débats politiques et littéraires*](http://altomator.github.io/EN-data_mining/Charts/DataQuality/JDPL.htm) (calendar)
 
 
