@@ -149,13 +149,9 @@ Average number of blocks per issue (timeline):
 
 ##### Data Quality
 
-Issues per year:
+Issues per year: [*Whole dataset*](http://altomator.github.io/EN-data_mining/Charts/DataQuality/Issues_year.htm)
 
-[*Whole dataset*](http://altomator.github.io/EN-data_mining/Charts/DataQuality/Issues_year.htm)
-
-Missing issues:
-
-[*Journal des débats politiques et littéraires*](http://altomator.github.io/EN-data_mining/Charts/DataQuality/JDPL.htm) (calendar)
+Missing issues: [*Journal des débats politiques et littéraires*](http://altomator.github.io/EN-data_mining/Charts/DataQuality/JDPL.htm) (calendar)
 
 
 
