@@ -3,20 +3,21 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Page format - Ouest-Eclair (Nantes)</title>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<style type="text/css">
 ${demo.css}
 		</style>
 		<script type="text/javascript">
 $(function () {
-
+         
         $('#container').highcharts({
             chart: {
                 type: 'scatter',
                 zoomType: 'x'
             },
             title: {
-                text: 'Page format - <i>Ouest-Eclair (Nantes)</i>, complet dataset (Europeana Newspaper, BnF)'
+                text: 'Page format - <i>Ouest-Eclair (Nantes)</i> (complet dataset) (Europeana Newspaper, BnF)'
             },
             subtitle: {
                 text: document.ontouchstart === undefined ?
@@ -37,13 +38,23 @@ $(function () {
             plotOptions: {
             	series: {
                     cursor: 'pointer',
-                    point: {
-											events: {
-													click: function () {
-													 window.open('http://gallica.bnf.fr/ark:/12148/cb39294634r/date' +
-													 Highcharts.dateFormat('%Y%m%d', this.x), '_blank');
-												}
-											}
+                    point: {  
+                    	  
+                        events: {
+                            click: function (e) {
+                                hs.htmlExpand(null, {
+                                    pageOrigin: {
+                                        x: e.pageX || e.clientX,
+                                        y: e.pageY || e.clientY
+                                    },
+                                    headingText: 'See the issue',
+                                    maincontentText: '<a target=_blank href=http://gallica.bnf.fr/ark:/12148/cb41193663x/date' + 
+                                    Highcharts.dateFormat('%Y%m%d', this.x) + '>' 
+                                    + '<small>'+ Highcharts.dateFormat('%Y/%m/%d', this.x) + '</small></a>',
+                                    width: 80
+                                });
+                            }
+                        }
                     }
                 },
                 area: {
@@ -55,7 +66,7 @@ $(function () {
                             y2: 1
                         },
                         stops: [
-                            [0, Highcharts.getOptions().colors[0]],
+                            [0, Highcharts.getOptions().colors[2]],
                             [1, Highcharts.Color(Highcharts.getOptions().colors[3]).setOpacity(0).get('rgba')]
                         ]
                     },
@@ -76,8 +87,8 @@ $(function () {
                 type: 'area',
                 name: 'Format ',
                data: [
-
-
+      
+ 
   [Date.UTC(1915,9,01),171.359],
   [Date.UTC(1915,9,02),171.359],
   [Date.UTC(1915,9,03),171.359],
@@ -9471,15 +9482,14 @@ $(function () {
 		</script>
 	</head>
 	<body>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/themes/sand-signika.js"></script>
+<script src="../js/highcharts.js"></script>
+<script src="../js/modules/exporting.js"></script>
+<script src="../js/themes/EN.js"></script>
 
-
-<!-- Additional files for the Highslide popup effect
-<script src="../highslide/highslide-full.min.js"></script>
-<script src="../highslide/highslide.config.js" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="../highslide/highslide.css" />-->
+<!-- Additional files for the Highslide popup effect -->
+<script src="http://highslide.com/highslide/highslide-full.min.js"></script>
+<script src="../js/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="../js/highslide.css" />
 
 
 <div id="container" style="min-width: 1200px; height: 400px; margin: 0 auto"></div>
